@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506656450813283}
   - component: {fileID: 7841506656450813282}
-  m_Layer: 8
+  m_Layer: 18
   m_Name: Katana Collider
   m_TagString: Attack
   m_Icon: {fileID: 0}
@@ -67,7 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506656725090415}
   - component: {fileID: 7841506656725090414}
-  m_Layer: 8
+  m_Layer: 18
   m_Name: KunaiMeele Collider
   m_TagString: Attack
   m_Icon: {fileID: 0}

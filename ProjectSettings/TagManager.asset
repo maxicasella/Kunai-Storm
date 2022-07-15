@@ -26,12 +26,12 @@ TagManager:
   - Spawn
   - Powerups
   - Puerta
-  - UI
   - Interactuable
+  - Walls
   - VisionRange
   - Particulas
-  - 
-  - 
+  - ColliderAttack
+  - Kunai
   - 
   - 
   - 
