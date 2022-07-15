@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8130545676530986931}
   - component: {fileID: 8130545676530986933}
   - component: {fileID: 8130545676530986930}
-  m_Layer: 17
+  m_Layer: 16
   m_Name: Vision Range
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: {fileID: 8130545678000709875}
-  player: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
+  player: {fileID: 0}
   soldier: {fileID: 8130545678000709873}
   spriteRenderer: {fileID: 8130545678000709886}
 --- !u!1 &8130545677066363707
@@ -74,7 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8130545677066363706}
   - component: {fileID: 8130545677066363709}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Espada Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 8130545678000709872}
   - component: {fileID: 8130545678000709874}
   - component: {fileID: 8130545678000709877}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: Enemigo Espada Sup
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1186879227
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: b97ec50b82b4b8f42a18fb4e1108aa3b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1442f540e87f74a85c1987fdcfdd92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemieHP: 0
+  enemieHP: 40
   baseHP: 40
   enemieDamage: 10
   timeToDestroy: 1

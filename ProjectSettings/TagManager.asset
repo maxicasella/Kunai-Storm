@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - MusicMenu
+  - VisionRange
+  - Attack
+  - Kunai
+  - UI
+  - Enemy
+  - Objects
   layers:
   - Default
   - TransparentFX
@@ -13,16 +20,16 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemigos
+  - Patrulla
+  - Spawn
+  - Powerups
+  - Puerta
+  - UI
+  - Interactuable
+  - VisionRange
+  - Particulas
   - 
   - 
   - 

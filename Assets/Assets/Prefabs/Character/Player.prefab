@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506656450813283}
   - component: {fileID: 7841506656450813282}
-  m_Layer: 15
+  m_Layer: 8
   m_Name: Katana Collider
   m_TagString: Attack
   m_Icon: {fileID: 0}
@@ -67,7 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506656725090415}
   - component: {fileID: 7841506656725090414}
-  m_Layer: 15
+  m_Layer: 8
   m_Name: KunaiMeele Collider
   m_TagString: Attack
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 7841506657235258670}
   - component: {fileID: 7841506657235258664}
   - component: {fileID: 7841506657235258667}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 93561625
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 11ca0dfcebd84794a9869c6eac786860, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -252,14 +252,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToDestroy: 2
-  playerAnim: {fileID: 7841506657235258658}
   playerHp: 0
   baseHp: 100
   playerMana: 0
   baseMana: 100
   lvlKey: 0
-  soldierskill: 0
+  playerAnim: {fileID: 7841506657235258658}
   canvasHP: {fileID: 0}
+  _blood: {fileID: 0}
 --- !u!114 &7841506657235258670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,7 +330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7841506657715753167}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: ShootController
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -361,7 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506658028846609}
   - component: {fileID: 7841506658028846608}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sombra PJ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +418,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 93561625
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: bcbc999b399b31b4b954dc3453f69065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
