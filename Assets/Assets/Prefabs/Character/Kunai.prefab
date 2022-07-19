@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8062872698985854957}
   - component: {fileID: 8062872698985854956}
   - component: {fileID: 8062872698985854739}
-  - component: {fileID: -2899547792458585285}
-  m_Layer: 13
+  - component: {fileID: -3503588889836727308}
+  m_Layer: 19
   m_Name: Kunai
   m_TagString: Kunai
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 2
---- !u!114 &-2899547792458585285
+--- !u!114 &-3503588889836727308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,10 +161,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8062872698985854738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ff2d2f351a2fc8439e5770a56ebdca2, type: 3}
+  m_Script: {fileID: 11500000, guid: 52e417541236f3b458edff735d6abe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityx: 3
-  velocityy: 0
-  timeTodestroy: 1
-  kunaiPowerDamage: 15
+  bulletForce: 3
+  _shootPoint: {fileID: 7841506657235258669, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+    type: 3}

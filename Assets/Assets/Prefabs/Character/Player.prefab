@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 7841506657235258670}
   - component: {fileID: 7841506657235258664}
   - component: {fileID: 7841506657235258667}
+  - component: {fileID: 710913655}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -321,6 +322,20 @@ MonoBehaviour:
   kunai: {fileID: 8062872698985854738, guid: c7ddfe2d7215d6943a27b6a484e02214, type: 3}
   equipment: {fileID: 0}
   canvasMana: {fileID: 0}
+--- !u!114 &710913655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7841506657235258659}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6978c294706c1e5408be815e62b1c296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 0}
+  shootPoint: {fileID: 7841506657715753167}
 --- !u!1 &7841506657715753164
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +345,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7841506657715753167}
-  m_Layer: 8
+  - component: {fileID: 292670695}
+  m_Layer: 0
   m_Name: ShootController
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -351,6 +367,20 @@ Transform:
   m_Father: {fileID: 7841506657235258668}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &292670695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7841506657715753164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6978c294706c1e5408be815e62b1c296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursor: {fileID: 0}
+  shootPoint: {fileID: 7841506657715753167}
 --- !u!1 &7841506658028846614
 GameObject:
   m_ObjectHideFlags: 0

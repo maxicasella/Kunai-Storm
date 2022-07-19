@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D playerRgbd;
     public float movementSpeed;
     public Animator playerMovement;
+
     
 
     void FixedUpdate()
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
         inputMovement.y = Input.GetAxis("Vertical");
         playerMovement.SetFloat("HorizontalMov", inputMovement.x);
         playerMovement.SetFloat("VerticalMov", inputMovement.y);
+
+      
 
         if (inputMovement.x != 0 || inputMovement.y != 0)
         {

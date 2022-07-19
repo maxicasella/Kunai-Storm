@@ -25,7 +25,7 @@ public class PlayerAttack : MonoBehaviour
     public Weapons equipment;
     public UImana canvasMana;
 
-     
+    [SerializeField] SpriteRenderer _shootPoint;
 
     private void Awake()
     {
@@ -193,7 +193,17 @@ public class PlayerAttack : MonoBehaviour
    
     public void Kunai() /*Instanciar Kunai*/
     {
-        Instantiate(kunai, transform.position, Quaternion.identity);        
+
+        
+        if (_shootPoint.flipX)
+        {
+            Instantiate(kunai, transform.position, Quaternion.Euler(0,0,-180));
+        }
+        else
+        {
+            Instantiate(kunai, transform.position, Quaternion.Euler(0, 0, 0));
+        }
+
     }
 
     public void PotionMana(float mana)
