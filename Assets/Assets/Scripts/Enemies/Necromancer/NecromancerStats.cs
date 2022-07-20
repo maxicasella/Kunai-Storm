@@ -17,7 +17,6 @@ public class NecromancerStats : MonoBehaviour
     private void Awake()
     {
         necroHP = baseHP;
-        ui.HPui(baseHP);
     }
 
     void Start()

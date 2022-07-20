@@ -164,6 +164,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52e417541236f3b458edff735d6abe2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletForce: 3
-  _shootPoint: {fileID: 7841506657235258669, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-    type: 3}
+  bulletForce: 4

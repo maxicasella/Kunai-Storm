@@ -738,6 +738,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 914530802, guid: 80de31c77f1e7b24aa8cde37b3830b26, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6376073496459655977, guid: 80de31c77f1e7b24aa8cde37b3830b26,
         type: 3}
       propertyPath: ui
@@ -807,6 +811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nigromante
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110396393861004635, guid: 80de31c77f1e7b24aa8cde37b3830b26,
+        type: 3}
+      propertyPath: m_Radius
+      value: 10.86
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80de31c77f1e7b24aa8cde37b3830b26, type: 3}
@@ -4893,7 +4902,7 @@ PrefabInstance:
     - target: {fileID: 3344371995039612935, guid: df1dcbae18535f64e91780f8e189131b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3344371995039612954, guid: df1dcbae18535f64e91780f8e189131b,
         type: 3}
@@ -5531,6 +5540,11 @@ PrefabInstance:
       propertyPath: _shootPoint
       value: 
       objectReference: {fileID: 710913654}
+    - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: timeshoot
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: m_LocalPosition.x
