@@ -104,7 +104,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743109459}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6376073496459655981}
@@ -120,6 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129615396332982297}
   - component: {fileID: 8110396393861004635}
+  - component: {fileID: 2089951577}
   m_Layer: 16
   m_Name: VisionRangeFireball
   m_TagString: VisionRange
@@ -157,6 +158,24 @@ CircleCollider2D:
   m_Offset: {x: 0.12, y: 0.3}
   serializedVersion: 2
   m_Radius: 7.37
+--- !u!114 &2089951577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921248495576051432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db88e36e40905134b97699a6437957a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemies: {fileID: 6376073496459655980}
+  _fireball: {fileID: 6532295407003335428, guid: 7a177c808119b3d46acdca588747e6e5,
+    type: 3}
+  _fireRange: 2
+  _timeToShoot: 0
+  _shootPoint: {fileID: 1743109460}
 --- !u!1 &6376073496071943849
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +310,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1186879227
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: c408acc004463ba4b8229145e0bc2dc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -361,10 +380,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   necroHP: 0
-  baseHP: 60
+  baseHP: 100
   necroDamage: 0
   timeToDestroy: 1
   key: {fileID: 4968957785462802293, guid: 10bda8a77a6853b47883f9ca71143593, type: 3}
+  ui: {fileID: 0}
+  _ui: {fileID: 0}
 --- !u!114 &6376073496459655982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,7 +417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6376073496880780618}
   - component: {fileID: 6376073496880780612}
-  - component: {fileID: 6376073496880780613}
+  - component: {fileID: 1777146924}
   m_Layer: 16
   m_Name: VisionRangeMelee
   m_TagString: VisionRange
@@ -434,7 +455,7 @@ CircleCollider2D:
   m_Offset: {x: 0.12, y: 0.3}
   serializedVersion: 2
   m_Radius: 2.94
---- !u!114 &6376073496880780613
+--- !u!114 &1777146924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -443,7 +464,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6376073496880780619}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db88e36e40905134b97699a6437957a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 075c1d6c6a93747418e0163901174a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: {fileID: 6376073496459655980}
+  _myAnim: {fileID: 6376073496459655980}

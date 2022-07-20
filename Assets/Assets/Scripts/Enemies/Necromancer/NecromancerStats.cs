@@ -10,10 +10,14 @@ public class NecromancerStats : MonoBehaviour
     public float timeToDestroy;
     Animator enemieAnim;
     public GameObject key;
-    
+
+    public UINecro ui;
+
+    [SerializeField] GameObject _ui;
     private void Awake()
     {
         necroHP = baseHP;
+        ui.HPui(baseHP);
     }
 
     void Start()
@@ -35,12 +39,14 @@ public class NecromancerStats : MonoBehaviour
         if (damage > 0 && necroHP >= 0) /*Recibir daño*/
         {
             necroHP -= damage;
+            ui.UpdateHP(necroHP);
         }
 
         if (necroHP <= 0)
         {
-            Instantiate(key, transform.position, transform.rotation);
             enemieAnim.SetTrigger("Death");
+            Destroy(_ui.gameObject);
+            Instantiate(key, transform.position, transform.rotation);
             Destroy(this.gameObject, 0.2f);
 
         }
