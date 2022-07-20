@@ -32,13 +32,21 @@ public class KunaiMov : MonoBehaviour
 
     }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    EnemyBase _enemy = collision.gameObject.GetComponent<EnemyBase>();
-    //    if (_enemy)
-    //    {
-    //        _enemy.ReceiveDamage(_damage);
-    //        Destroy(this.gameObject);
-    //    }
-    //}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
+        NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
+        if (enemieHP != null)
+        {
+            enemieHP.DamageAttack(_damage);
+            Destroy(this.gameObject);
+        }
+        else if (necroHP != null)
+        {
+            necroHP.DamageAttack(_damage);
+            Destroy(this.gameObject);
+        }
+    }
+
+    
 }

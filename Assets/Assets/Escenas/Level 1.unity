@@ -2568,6 +2568,7 @@ GameObject:
   - component: {fileID: 1466781153}
   - component: {fileID: 1466781152}
   - component: {fileID: 1466781151}
+  - component: {fileID: 1466781156}
   m_Layer: 15
   m_Name: MidgroundPared
   m_TagString: Untagged
@@ -2602,7 +2603,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.475895, y: 3.3231554}
+  m_Offset: {x: -8.405533, y: 3.042388}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2613,7 +2614,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.248211, y: 3.6136894}
+  m_Size: {x: 2.3889346, y: 4.1752243}
   m_EdgeRadius: 0
 --- !u!50 &1466781147
 Rigidbody2D:
@@ -2813,7 +2814,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.3377295, y: 3.2700014}
+  m_Offset: {x: 7.3059297, y: 3.158337}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2824,7 +2825,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.524542, y: 3.7199974}
+  m_Size: {x: 4.5881414, y: 3.943326}
   m_EdgeRadius: 0
 --- !u!61 &1466781154
 BoxCollider2D:
@@ -2877,6 +2878,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1.0213118, y: 10.26}
+  m_EdgeRadius: 0
+--- !u!61 &1466781156
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466781144}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 4.2458153}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.26}
+    newSize: {x: 19.2, y: 10.26}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 1.7683699}
   m_EdgeRadius: 0
 --- !u!1 &1473572385
 GameObject:
@@ -3989,7 +4016,7 @@ MonoBehaviour:
   _enemies: {fileID: 818410490}
   _fireball: {fileID: 6532295407003335428, guid: 7a177c808119b3d46acdca588747e6e5,
     type: 3}
-  _fireRange: 1.5
+  _fireRange: 2
   _timeToShoot: 0
   _shootPoint: {fileID: 1681804059}
 --- !u!1 &2099678051
@@ -5148,6 +5175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841506657235258669, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
