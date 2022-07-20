@@ -6,11 +6,10 @@ public class Fireball : MonoBehaviour
 {
 
     [SerializeField] float _force;
-    public float dmg;
-    [SerializeField] float _velocityX;
-    [SerializeField] float _velocityY;
     [SerializeField] Transform _target;
-
+    
+    public float dmg;
+    
     Rigidbody2D _myRb;
     Vector2 _dir;
 

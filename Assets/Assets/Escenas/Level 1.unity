@@ -3989,7 +3989,7 @@ MonoBehaviour:
   _enemies: {fileID: 818410490}
   _fireball: {fileID: 6532295407003335428, guid: 7a177c808119b3d46acdca588747e6e5,
     type: 3}
-  _fireRange: 2
+  _fireRange: 1.5
   _timeToShoot: 0
   _shootPoint: {fileID: 1681804059}
 --- !u!1 &2099678051
