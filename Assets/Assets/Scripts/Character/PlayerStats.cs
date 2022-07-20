@@ -14,7 +14,7 @@ public class PlayerStats : MonoBehaviour
 
     public Animator playerAnim;
     public UIhp canvasHP;
-    public ParticleSystem _blood;
+    //public ParticleSystem _blood;
    
    private void Awake()
     {
@@ -35,7 +35,7 @@ public class PlayerStats : MonoBehaviour
         if (damage>0 && playerHp >0)
         {
             playerHp -= damage;
-            Instantiate(_blood, transform.position, Quaternion.identity);
+            //Instantiate(_blood, transform.position, Quaternion.identity);
             canvasHP.UpdateHP(playerHp);
             
         }
