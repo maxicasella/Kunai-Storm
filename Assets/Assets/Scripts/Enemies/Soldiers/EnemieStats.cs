@@ -22,16 +22,18 @@ public class EnemieStats : MonoBehaviour
         enemieAnim = GetComponent<Animator>();
     }
 
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         PlayerStats playerHp = collision.collider.GetComponent<PlayerStats>();
-        
+
         if (playerHp != null)
         {
             playerHp.Damage(enemieDamage);
+            
         }
     }
+
+  
 
     public void DamageAttack(float damage)
     {

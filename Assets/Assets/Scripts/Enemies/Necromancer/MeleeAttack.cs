@@ -6,12 +6,12 @@ public class MeleeAttack : MonoBehaviour
 {
     [SerializeField] Animator _myAnim;
 
-    private void OnTriggerStay2D(Collider other)
-    {
-        _myAnim.SetBool("Iddle", false);
-        _myAnim.SetBool("Attack", true);
+    //private void OnTriggerStay2D(Collider other)
+    //{
+    //    _myAnim.SetBool("Iddle", false);
+    //    _myAnim.SetBool("Attack", true);
 
-    }
+    //}
 
     private void OnTriggerExit2D(Collider2D collision)
     {
