@@ -7,10 +7,13 @@ public class DoorCollider : MonoBehaviour
 {
     public GameObject doorCanvas;
 
+    public PlayerStats keyReference;
+
     private void OnTriggerStay2D(Collider2D collision)
     {
 
         doorCanvas.SetActive(true);
+        keyReference.Golevel();
 
     }
 

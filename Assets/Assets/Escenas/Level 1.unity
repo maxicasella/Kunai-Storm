@@ -4889,6 +4889,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 883797111}
     m_Modifications:
+    - target: {fileID: 5975772882428294561, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
+        type: 3}
+      propertyPath: keyReference
+      value: 
+      objectReference: {fileID: 206646652}
     - target: {fileID: 5975772882428294572, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
         type: 3}
       propertyPath: m_Name
@@ -5226,6 +5231,11 @@ PrefabInstance:
       propertyPath: weapon
       value: 
       objectReference: {fileID: 79935874}
+    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: scene
+      value: Level 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment

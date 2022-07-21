@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class PlayerStats : MonoBehaviour
     public UIhp canvasHP;
 
     public PlayerAttack weapon;
+
+    public string scene;
    
    private void Awake()
     {
@@ -81,5 +84,11 @@ public class PlayerStats : MonoBehaviour
     {
         lvlKey = true;
     }
-
+    public void Golevel()
+    {
+        if (Input.GetKeyDown(KeyCode.E) && lvlKey == true)
+        {
+            SceneManager.LoadScene(scene);
+        }
+    }
 }
