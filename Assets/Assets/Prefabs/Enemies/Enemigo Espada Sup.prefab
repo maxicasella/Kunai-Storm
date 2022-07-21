@@ -64,6 +64,7 @@ MonoBehaviour:
   player: {fileID: 0}
   soldier: {fileID: 8130545678000709873}
   spriteRenderer: {fileID: 8130545678000709886}
+  isMove: 0
 --- !u!1 &8130545677066363707
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +269,7 @@ MonoBehaviour:
   point1: {fileID: 8627595013523985949, guid: acd325f070e6cdf478cbf6f43e04b5b2, type: 3}
   point2: {fileID: 1504456996394711985, guid: 8211507fe07df5a43a6b06fe1825a709, type: 3}
   targetPoint: {fileID: 8130545678000709873}
+  move: {fileID: 8130545676530986930}
 --- !u!114 &8130545678000709877
 MonoBehaviour:
   m_ObjectHideFlags: 0
