@@ -11,7 +11,8 @@ public class EnemiesIA : MonoBehaviour
     public Transform point2;
     public Transform targetPoint;
     SpriteRenderer spriteRenderer;
-    
+
+    public VisionRange move;
     
     private void Start()
     {
@@ -29,21 +30,26 @@ public class EnemiesIA : MonoBehaviour
     private void FixedUpdate()
     {
            
-        transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
-        if (Vector3.Distance(transform.position, targetPoint.position) == 0.00)
+        if (move.isMove)
         {
-            
-            if (targetPoint == point1)
+            transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
+            if (Vector3.Distance(transform.position, targetPoint.position) == 0.00)
             {
-                targetPoint = point2;
-                spriteRenderer.flipX = true;
-            }
-            else if (targetPoint==point2)
-            {
-                targetPoint = point1;
-                spriteRenderer.flipX = false;
+
+                if (targetPoint == point1)
+                {
+                    targetPoint = point2;
+                    spriteRenderer.flipX = true;
+                }
+                else if (targetPoint == point2)
+                {
+                    targetPoint = point1;
+                    spriteRenderer.flipX = false;
+                }
             }
         }
+
+        
        
         
        
