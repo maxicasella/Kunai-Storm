@@ -126,7 +126,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7841506657162977365}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &64809754
+--- !u!114 &64809756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5221,6 +5221,11 @@ PrefabInstance:
       propertyPath: canvasHP
       value: 
       objectReference: {fileID: 2050762800}
+    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 79935874}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment
