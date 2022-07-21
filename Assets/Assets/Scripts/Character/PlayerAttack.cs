@@ -147,48 +147,7 @@ public class PlayerAttack : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) /*Hacer daño*/
-    {
-        EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
-        NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
-
-        if (enemieHP != null && kunaiEquip)
-        {
-            enemieHP.DamageAttack(kunaiNormDamage);
-
-        }
-
-        if (enemieHP != null && katanaEquip)
-        {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                enemieHP.DamageAttack(katanaNormDamage);
-            }
-            else
-            {
-                enemieHP.DamageAttack(katanaPowerDamage);
-            }
-        }
-
-        if(necroHP != null && kunaiEquip)
-        {
-            necroHP.DamageAttack(kunaiNormDamage);
-
-        }
-
-        if (necroHP != null && katanaEquip)
-        {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                necroHP.DamageAttack(katanaNormDamage);
-            }
-            else
-            {
-                necroHP.DamageAttack(katanaPowerDamage);
-            }
-        }
-
-    }
+   
 
    
     public void Kunai() /*Instanciar Kunai*/

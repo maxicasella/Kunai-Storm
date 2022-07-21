@@ -46,7 +46,14 @@ public class KunaiMov : MonoBehaviour
             necroHP.DamageAttack(_damage);
             Destroy(this.gameObject);
         }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 
-    
+   
+
+
 }
