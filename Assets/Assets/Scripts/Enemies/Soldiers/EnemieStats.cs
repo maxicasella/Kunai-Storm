@@ -12,6 +12,8 @@ public class EnemieStats : MonoBehaviour
     public GameObject mana;
     public GameObject hp;
 
+
+
     private void Awake()
     {
         enemieHP = baseHP;
@@ -60,4 +62,5 @@ public class EnemieStats : MonoBehaviour
                 
         }
     }
+
 }
