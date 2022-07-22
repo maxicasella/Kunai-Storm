@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506656450813283}
   - component: {fileID: 7841506656450813282}
+  - component: {fileID: 64809756}
   m_Layer: 18
   m_Name: Katana Collider
   m_TagString: Attack
@@ -57,6 +58,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &64809756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7841506656450813280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb8469976778004f84841c817c0f9b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7841506657235258667}
 --- !u!1 &7841506656725090412
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,6 +81,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7841506656725090415}
   - component: {fileID: 7841506656725090414}
+  - component: {fileID: 1374742651}
   m_Layer: 18
   m_Name: KunaiMeele Collider
   m_TagString: Attack
@@ -114,6 +129,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5864, y: 0.61264974}
   m_EdgeRadius: 0
+--- !u!114 &1374742651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7841506656725090412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de90080dd4ef6804baaddf2372d3f203, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 7841506657235258667}
 --- !u!1 &7841506657235258659
 GameObject:
   m_ObjectHideFlags: 0
@@ -193,7 +221,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 93561625
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 11ca0dfcebd84794a9869c6eac786860, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -260,7 +288,8 @@ MonoBehaviour:
   lvlKey: 0
   playerAnim: {fileID: 7841506657235258658}
   canvasHP: {fileID: 0}
-  _blood: {fileID: 0}
+  weapon: {fileID: 7841506657235258667}
+  scene: Level 2
 --- !u!114 &7841506657235258670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,11 +346,12 @@ MonoBehaviour:
   kunaiNormDamage: 5
   katanaNormDamage: 7.15
   katanaPowerDamage: 15
-  timeshoot: 0.2
+  timeshoot: 1
   ShootControler: {fileID: 7841506657715753167}
   kunai: {fileID: 8062872698985854738, guid: c7ddfe2d7215d6943a27b6a484e02214, type: 3}
   equipment: {fileID: 0}
   canvasMana: {fileID: 0}
+  _shootPoint: {fileID: 7841506657235258669}
 --- !u!114 &710913655
 MonoBehaviour:
   m_ObjectHideFlags: 0

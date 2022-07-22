@@ -120,37 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &64809753 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7841506656450813280, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-    type: 3}
-  m_PrefabInstance: {fileID: 7841506657162977365}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &64809756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64809753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fb8469976778004f84841c817c0f9b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 79935874}
---- !u!114 &79935874 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-    type: 3}
-  m_PrefabInstance: {fileID: 7841506657162977365}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa0d28bc40d463747ad6a494503d3101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &83239562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1105,12 +1074,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 703994244}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &710913654 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 7841506657235258669, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-    type: 3}
-  m_PrefabInstance: {fileID: 7841506657162977365}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &739160370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8742330164115489774, guid: 75337439eb98f244b8f8c8a98c2ed187,
@@ -1527,25 +1490,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1374742648 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7841506656725090412, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-    type: 3}
-  m_PrefabInstance: {fileID: 7841506657162977365}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1374742651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374742648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de90080dd4ef6804baaddf2372d3f203, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 79935874}
 --- !u!1 &1466781144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,16 +3626,6 @@ PrefabInstance:
       propertyPath: canvasHP
       value: 
       objectReference: {fileID: 2050762800}
-    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-        type: 3}
-      propertyPath: weapon
-      value: 
-      objectReference: {fileID: 79935874}
-    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-        type: 3}
-      propertyPath: scene
-      value: Level 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment
@@ -3702,16 +3636,6 @@ PrefabInstance:
       propertyPath: canvasMana
       value: 
       objectReference: {fileID: 1552541457}
-    - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-        type: 3}
-      propertyPath: _shootPoint
-      value: 
-      objectReference: {fileID: 710913654}
-    - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-        type: 3}
-      propertyPath: timeshoot
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3766,11 +3690,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7841506657235258669, guid: 2fadfdea6d482b548b7108487d7b1eb2,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
