@@ -31,26 +31,48 @@ public class AttackIA : MonoBehaviour
         if (player != null)
         {
             targetPlayer = true;
-            if (movement.movder)
+           
+        }
+
+        if (mySprite.flipX == false)
+        {
+            if (movement.movder == true)
             {
                 mySprite.flipX = true;
-
-                if (mySprite.flipX == true && movement.movizq == true)
-                {
-                    mySprite.flipX = false;
-                }
-               
             }
-
-            if (movement.movizq)
+        }
+        else
+        {
+            if (movement.movizq == true)
             {
                 mySprite.flipX = false;
-            }   
-            
+            }
         }
 
     }
-   
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+
+        PlayerMovement movement = collision.GetComponent<PlayerMovement>();
+
+        if (mySprite.flipX == false)
+        {
+            if (movement.movder == true)
+            {
+                mySprite.flipX = true;
+            }
+        }
+        else
+        {
+            if (movement.movizq == true)
+            {
+                mySprite.flipX = false;
+            }
+        }
+
+    }
+
 
     public void OnTriggerExit2D(Collider2D collider)
     {
