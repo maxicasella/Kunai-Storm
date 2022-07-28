@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed;
     public Animator playerMovement;
 
+    public bool movizq;
+    public bool movder;
     
 
     void FixedUpdate()
@@ -30,7 +32,29 @@ public class PlayerMovement : MonoBehaviour
         {
             playerMovement.SetBool("Movement", false);
         }
+
+        if (inputMovement.x < 0)
+        {
+            movizq = true;
+        }
+        else
+        {
+            movizq = false;
+        }
+
+        if (inputMovement.x > 0)
+        {
+            movder = true;
+        }
+        else
+        {
+            movder = false;
+        }
     }
 
+   
+
+
 }
+
 
