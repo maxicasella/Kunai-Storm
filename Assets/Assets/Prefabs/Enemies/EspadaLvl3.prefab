@@ -46,7 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPlayer: 0
   enemieMov: {fileID: 7588878320185854684}
-  _playerT: {fileID: 0}
+  _playerT: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+    type: 3}
   mySprite: {fileID: 7588878320185854672}
 --- !u!61 &388779810
 BoxCollider2D:
@@ -81,6 +82,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8130545676530986930, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
     - target: {fileID: 8130545678000709873, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -140,21 +147,41 @@ PrefabInstance:
         type: 3}
       propertyPath: point1
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1504456996394711985, guid: 8211507fe07df5a43a6b06fe1825a709,
+        type: 3}
     - target: {fileID: 8130545678000709874, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: point2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8627595013523985949, guid: acd325f070e6cdf478cbf6f43e04b5b2,
+        type: 3}
     - target: {fileID: 8130545678000709877, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: kills.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8130545678000709877, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: kills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855,
+        type: 3}
+    - target: {fileID: 8130545678000709877, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: kills.Array.data[1]
+      value: 
+      objectReference: {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae,
+        type: 3}
+    - target: {fileID: 8130545678000709877, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: kills.Array.data[2]
+      value: 
+      objectReference: {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3,
+        type: 3}
     - target: {fileID: 8130545678000709887, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_Name
-      value: 'Enemigo Espada '
+      value: EspadaLvl3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: babac5ea2643a684cab653571a26322b, type: 3}
