@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemieStats : MonoBehaviour
+public class StatsLvl3 : MonoBehaviour
 {
     public float enemieHP;
     public float baseHP;
@@ -32,15 +32,15 @@ public class EnemieStats : MonoBehaviour
         if (playerHp != null)
         {
             playerHp.Damage(enemieDamage);
-            
+
         }
     }
 
-  
+
 
     public void DamageAttack(float damage)
     {
-        
+
 
         if (damage > 0 && enemieHP >= 0) /*Recibir daño*/
         {
@@ -55,15 +55,26 @@ public class EnemieStats : MonoBehaviour
                 case 1:
                     Instantiate(mana, transform.position, transform.rotation);
                     break;
-                case 6: Instantiate(hp, transform.position, transform.rotation);
+                case 6:
+                    Instantiate(hp, transform.position, transform.rotation);
                     break;
             }
             enemieAnim.SetTrigger("Death");
-                       
-        
-            Destroy(this.gameObject,0.2f);
-                
+            for (int i = 0; i < kills.Length; i++)
+            {
+                kills[i].killsCounter = kills[i].killsCounter + 1;
+
+            }
+
+            if (_spawn.spawn == 0)
+            {
+                _spawn.spawn = 1;
+            }
+
+
+            Destroy(this.gameObject, 0.2f);
+
         }
     }
-
 }
+

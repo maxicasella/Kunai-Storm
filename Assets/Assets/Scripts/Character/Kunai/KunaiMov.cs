@@ -36,6 +36,8 @@ public class KunaiMov : MonoBehaviour
     {
         EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
         NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
+        StatsLvl3 lvl3 = collision.GetComponent<StatsLvl3>();
+
         if (enemieHP != null)
         {
             enemieHP.DamageAttack(_damage);
@@ -44,6 +46,11 @@ public class KunaiMov : MonoBehaviour
         else if (necroHP != null)
         {
             necroHP.DamageAttack(_damage);
+            Destroy(this.gameObject);
+        }
+        else if (lvl3 != null)
+        {
+            lvl3.DamageAttack(_damage);
             Destroy(this.gameObject);
         }
         else

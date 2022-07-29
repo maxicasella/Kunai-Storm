@@ -11,6 +11,7 @@ TagManager:
   - UI
   - Enemy
   - Objects
+  - Spawn
   layers:
   - Default
   - TransparentFX
@@ -32,7 +33,7 @@ TagManager:
   - Particulas
   - ColliderAttack
   - Kunai
-  - 
+  - Fireball
   - 
   - 
   - 
