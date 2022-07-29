@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: {fileID: 1813977253113492615}
-  player: {fileID: 0}
+  player: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
   soldier: {fileID: 1813977253113492613}
   spriteRenderer: {fileID: 1813977253113492618}
   isMove: 0
@@ -149,7 +149,6 @@ GameObject:
   - component: {fileID: 1813977253113492615}
   - component: {fileID: 1813977253113492612}
   - component: {fileID: 1813977253113492614}
-  - component: {fileID: 1813977253113492609}
   - component: {fileID: 7636146205472734524}
   m_Layer: 9
   m_Name: Enemigo Espada  Variant
@@ -282,30 +281,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1.5
-  point1: {fileID: 0}
-  point2: {fileID: 0}
+  point1: {fileID: 6861735217872503600, guid: 0154fe015a5e4cb4abeac50e098bc214, type: 3}
+  point2: {fileID: 5310840734562160105, guid: 2dfddbcf2473c294fb12728a4305e6e9, type: 3}
   targetPoint: {fileID: 0}
   move: {fileID: 1813977251370351558}
---- !u!114 &1813977253113492609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813977253113492619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd1442f540e87f74a85c1987fdcfdd92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemieHP: 40
-  baseHP: 40
-  enemieDamage: 5
-  timeToDestroy: 1
-  mana: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
-  hp: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe, type: 3}
-  kills: []
-  _spawn: {fileID: 0}
 --- !u!114 &7636146205472734524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,10 +304,10 @@ MonoBehaviour:
   mana: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
   hp: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe, type: 3}
   kills:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  _spawn: {fileID: 0}
+  - {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855, type: 3}
+  - {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae, type: 3}
+  - {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3, type: 3}
+  _spawn: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45, type: 3}
 --- !u!1 &6926556676646803107
 GameObject:
   m_ObjectHideFlags: 0

@@ -2152,13 +2152,13 @@ PrefabInstance:
         type: 3}
       propertyPath: _enemieSword
       value: 
-      objectReference: {fileID: 6955814583742869100, guid: 428292a154cf22f4ebea1a27adc184ce,
+      objectReference: {fileID: 1813977253113492619, guid: a28b20d120715344893e232a64c27590,
         type: 3}
     - target: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45,
         type: 3}
       propertyPath: _enemieSpear
       value: 
-      objectReference: {fileID: 772815202980817343, guid: 5a4ecf0bd685cdb458d04159a2ba6218,
+      objectReference: {fileID: 1813977253113492619, guid: a28b20d120715344893e232a64c27590,
         type: 3}
     - target: {fileID: 2592898567896225387, guid: 023e5ca8b9ba1c24f89db52caa879a45,
         type: 3}
