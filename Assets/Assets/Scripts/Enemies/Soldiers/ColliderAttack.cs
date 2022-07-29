@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColliderAttack : MonoBehaviour
 {
-    public EnemieStats stats;
+    public StatsLvl3 stats;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerStats playerHp = collision.GetComponent<PlayerStats>();
