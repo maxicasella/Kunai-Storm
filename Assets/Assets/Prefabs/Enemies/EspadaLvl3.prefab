@@ -81,11 +81,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8130545676530986930, guid: babac5ea2643a684cab653571a26322b,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 8130545678000709873, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -143,18 +138,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8130545678000709874, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
-      propertyPath: point2
+      propertyPath: point1
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8130545678000709874, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
-      propertyPath: point1
+      propertyPath: point2
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8130545678000709877, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: kills.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8130545678000709887, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_Name
-      value: Enemigo Espada Sup
+      value: 'Enemigo Espada '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: babac5ea2643a684cab653571a26322b, type: 3}

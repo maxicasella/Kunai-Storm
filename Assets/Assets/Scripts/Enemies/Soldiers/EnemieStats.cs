@@ -11,7 +11,7 @@ public class EnemieStats : MonoBehaviour
     Animator enemieAnim;
     public GameObject mana;
     public GameObject hp;
-
+    [SerializeField] EnemiesDeath[] kills;
 
 
     private void Awake()
@@ -58,6 +58,13 @@ public class EnemieStats : MonoBehaviour
                     break;
             }
             enemieAnim.SetTrigger("Death");
+            for (int i = 0; i < kills.Length; i++)
+            {
+                kills[i].killsCounter = kills[i].killsCounter + 1;
+                
+            }
+            
+        
             Destroy(this.gameObject,0.2f);
                 
         }

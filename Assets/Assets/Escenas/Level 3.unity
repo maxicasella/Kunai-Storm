@@ -335,7 +335,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.96022, y: -2.6457367}
+  m_Offset: {x: -8.96022, y: -2.6543589}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -346,7 +346,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1295586, y: 4.228527}
+  m_Size: {x: 2.1295586, y: 4.2112827}
   m_EdgeRadius: 0
 --- !u!61 &45422186
 BoxCollider2D:
@@ -361,7 +361,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.960221, y: 2.7115552}
+  m_Offset: {x: -9.045435, y: 2.9615946}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -372,7 +372,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1295567, y: 4.09689}
+  m_Size: {x: 1.9591293, y: 3.5968115}
   m_EdgeRadius: 0
 --- !u!61 &45422187
 BoxCollider2D:
@@ -441,6 +441,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 778153901}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &182325685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182325686}
+  m_Layer: 14
+  m_Name: Pinches
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182325686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182325685}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.44, y: 0.8, z: 0}
+  m_LocalScale: {x: 1.2041, y: 1.2041, z: 1.2041}
+  m_Children:
+  - {fileID: 1630533984}
+  - {fileID: 1252679174}
+  - {fileID: 1501279569}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &197754264
 GameObject:
@@ -1844,6 +1877,7 @@ GameObject:
   - component: {fileID: 1252679177}
   - component: {fileID: 1252679176}
   - component: {fileID: 1252679175}
+  - component: {fileID: 1252679178}
   m_Layer: 14
   m_Name: PinchesLvl3 (1)
   m_TagString: Untagged
@@ -1859,10 +1893,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252679173}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15, y: -0.639, z: 0}
+  m_LocalPosition: {x: -0.14999995, y: -0.639, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1630533984}
+  m_Father: {fileID: 182325686}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1252679175
@@ -1959,6 +1993,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1252679178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252679173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce43c63d2f89193498044a99bb7d92ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killsCounter: 0
+  goFinal: 12
+  myAnim: {fileID: 1252679176}
 --- !u!4 &1282883002 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8627595013523985949, guid: acd325f070e6cdf478cbf6f43e04b5b2,
@@ -2087,6 +2136,7 @@ GameObject:
   - component: {fileID: 1501279572}
   - component: {fileID: 1501279571}
   - component: {fileID: 1501279570}
+  - component: {fileID: 1501279573}
   m_Layer: 14
   m_Name: PinchesLvl3 (2)
   m_TagString: Untagged
@@ -2102,11 +2152,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501279568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -0.324, z: 0}
+  m_LocalPosition: {x: -0.070000134, y: -0.324, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1630533984}
-  m_RootOrder: 0
+  m_Father: {fileID: 182325686}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1501279570
 BoxCollider2D:
@@ -2202,6 +2252,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1501279573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501279568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce43c63d2f89193498044a99bb7d92ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killsCounter: 0
+  goFinal: 12
+  myAnim: {fileID: 1501279571}
 --- !u!1 &1531064914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2374,6 +2439,7 @@ GameObject:
   - component: {fileID: 1630533983}
   - component: {fileID: 1630533981}
   - component: {fileID: 1630533982}
+  - component: {fileID: 1630533985}
   m_Layer: 14
   m_Name: PinchesLvl3
   m_TagString: Untagged
@@ -2482,15 +2548,28 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630533980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.44, y: 0.8, z: 0}
-  m_LocalScale: {x: 1.2041, y: 1.2041, z: 1.2041}
-  m_Children:
-  - {fileID: 1501279569}
-  - {fileID: 1252679174}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 182325686}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1630533985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630533980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce43c63d2f89193498044a99bb7d92ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killsCounter: 0
+  goFinal: 12
+  myAnim: {fileID: 1630533982}
 --- !u!1001 &1838766795423908708
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2512,6 +2591,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Enemigo Espada '
       objectReference: {fileID: 0}
+    - target: {fileID: 7588878320185854683, guid: 00c492848231ba9458780a10bdc9088d,
+        type: 3}
+      propertyPath: kills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1630533985}
+    - target: {fileID: 7588878320185854683, guid: 00c492848231ba9458780a10bdc9088d,
+        type: 3}
+      propertyPath: kills.Array.data[1]
+      value: 
+      objectReference: {fileID: 1252679178}
+    - target: {fileID: 7588878320185854683, guid: 00c492848231ba9458780a10bdc9088d,
+        type: 3}
+      propertyPath: kills.Array.data[2]
+      value: 
+      objectReference: {fileID: 1501279573}
     - target: {fileID: 7588878320185854684, guid: 00c492848231ba9458780a10bdc9088d,
         type: 3}
       propertyPath: point1
@@ -2645,6 +2739,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3919656230965636899, guid: 97dc688436d922d41ab7ead7d3b541d7,
+        type: 3}
+      propertyPath: kills.Array.data[0]
+      value: 
+      objectReference: {fileID: 1630533985}
+    - target: {fileID: 3919656230965636899, guid: 97dc688436d922d41ab7ead7d3b541d7,
+        type: 3}
+      propertyPath: kills.Array.data[1]
+      value: 
+      objectReference: {fileID: 1252679178}
+    - target: {fileID: 3919656230965636899, guid: 97dc688436d922d41ab7ead7d3b541d7,
+        type: 3}
+      propertyPath: kills.Array.data[2]
+      value: 
+      objectReference: {fileID: 1501279573}
     - target: {fileID: 3919656230965636900, guid: 97dc688436d922d41ab7ead7d3b541d7,
         type: 3}
       propertyPath: point1
@@ -2655,11 +2764,6 @@ PrefabInstance:
       propertyPath: point2
       value: 
       objectReference: {fileID: 1282883002}
-    - target: {fileID: 3919656230965636900, guid: 97dc688436d922d41ab7ead7d3b541d7,
-        type: 3}
-      propertyPath: speed
-      value: 1.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3919656230965636910, guid: 97dc688436d922d41ab7ead7d3b541d7,
         type: 3}
       propertyPath: m_Name

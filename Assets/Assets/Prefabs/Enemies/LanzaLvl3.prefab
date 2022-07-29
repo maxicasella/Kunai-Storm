@@ -84,22 +84,17 @@ PrefabInstance:
     - target: {fileID: 8146304128731734241, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
       propertyPath: m_Name
-      value: EnemigoLanza (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8146304128731734241, guid: 70cb515af2d5f144b88d0db4509d339c,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      value: EnemigoLanza
       objectReference: {fileID: 0}
     - target: {fileID: 8146304128731734251, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
-      propertyPath: point1
-      value: 
+      propertyPath: speed
+      value: 1.2
       objectReference: {fileID: 0}
-    - target: {fileID: 8146304128731734251, guid: 70cb515af2d5f144b88d0db4509d339c,
+    - target: {fileID: 8146304128731734252, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
-      propertyPath: point2
-      value: 
+      propertyPath: kills.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8146304128731734254, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
@@ -154,11 +149,6 @@ PrefabInstance:
     - target: {fileID: 8146304128731734254, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8146304128731734255, guid: 70cb515af2d5f144b88d0db4509d339c,
-        type: 3}
-      propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8146304128731734255, guid: 70cb515af2d5f144b88d0db4509d339c,
