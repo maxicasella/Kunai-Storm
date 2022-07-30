@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnerLvl3 : MonoBehaviour
 {
-    [SerializeField] EnemiesDeath _kills;
+    [SerializeField] KillCounter _kills;
     [SerializeField] GameObject _enemieSword;
     [SerializeField] GameObject _enemieSpear;
     [SerializeField] Transform _spawnA;
@@ -18,7 +18,15 @@ public class SpawnerLvl3 : MonoBehaviour
         {
             switch (_kills.killsCounter)
             {
+                case 1:
+                    Instantiate(_enemieSword, _spawnB.position, Quaternion.identity);
+                    spawn = 0;
+                    break;
                 case 2:
+                    Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
+                    spawn = 0;
+                    break;
+                case 3:
                     Instantiate(_enemieSword, _spawnB.position, Quaternion.identity);
                     spawn = 0;
                     break;
@@ -26,19 +34,11 @@ public class SpawnerLvl3 : MonoBehaviour
                     Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
                     spawn = 0;
                     break;
+                case 5:
+                    Instantiate(_enemieSword, _spawnB.position, Quaternion.identity);
+                    spawn = 0;
+                    break;
                 case 6:
-                    Instantiate(_enemieSword, _spawnB.position, Quaternion.identity);
-                    spawn = 0;
-                    break;
-                case 8:
-                    Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
-                    spawn = 0;
-                    break;
-                case 10:
-                    Instantiate(_enemieSword, _spawnB.position, Quaternion.identity);
-                    spawn = 0;
-                    break;
-                case 12:
                     Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
                     spawn = 0;
                     break;

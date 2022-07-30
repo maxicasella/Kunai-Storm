@@ -221,7 +221,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 93561625
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 11ca0dfcebd84794a9869c6eac786860, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -289,7 +289,7 @@ MonoBehaviour:
   playerAnim: {fileID: 7841506657235258658}
   canvasHP: {fileID: 0}
   weapon: {fileID: 7841506657235258667}
-  scene: Level 2
+  scene: Level 4
 --- !u!114 &7841506657235258670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,6 +305,8 @@ MonoBehaviour:
   playerRgbd: {fileID: 7841506657235258664}
   movementSpeed: 4
   playerMovement: {fileID: 7841506657235258658}
+  movizq: 0
+  movder: 0
 --- !u!50 &7841506657235258664
 Rigidbody2D:
   serializedVersion: 4

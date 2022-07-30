@@ -11,18 +11,21 @@ public class StatsLvl3 : MonoBehaviour
     Animator enemieAnim;
     public GameObject mana;
     public GameObject hp;
-    [SerializeField] EnemiesDeath[] kills;
+    //[SerializeField] EnemiesDeath[] kills;
     [SerializeField] SpawnerLvl3 _spawn;
+    [SerializeField] KillCounter _kills;
 
 
     private void Awake()
     {
         enemieHP = baseHP;
+        _kills = GameObject.FindGameObjectWithTag("Player").GetComponent<KillCounter>();
     }
 
     void Start()
     {
         enemieAnim = GetComponent<Animator>();
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -60,11 +63,12 @@ public class StatsLvl3 : MonoBehaviour
                     break;
             }
             enemieAnim.SetTrigger("Death");
-            for (int i = 0; i < kills.Length; i++)
-            {
-                kills[i].killsCounter = kills[i].killsCounter + 1;
+            //for (int i = 0; i < kills.Length; i++)
+            //{
+            //    kills[i].killsCounter = kills[i].killsCounter + 1;
 
-            }
+            //}
+            _kills.killsCounter = _kills.killsCounter + 1;
 
             if (_spawn.spawn == 0)
             {

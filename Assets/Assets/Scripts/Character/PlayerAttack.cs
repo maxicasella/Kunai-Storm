@@ -29,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Awake()
     {
-        _katanaRecolectable = false;
+        //_katanaRecolectable = false;
         playerMana = baseMana;
     }
 

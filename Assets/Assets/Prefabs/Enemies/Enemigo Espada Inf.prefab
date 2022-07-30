@@ -146,7 +146,7 @@ MonoBehaviour:
   speed: 1.5
   point1: {fileID: 6986267678171430289, guid: 437b19d8ea6e4ef4a9b3ff9967cfc38b, type: 3}
   point2: {fileID: 7258290827833832252, guid: 5f046762ff25b364fa6d281f05176b49, type: 3}
-  targetPoint: {fileID: 7032917056898397768}
+  targetPoint: {fileID: 0}
   move: {fileID: 7032917058384869643}
 --- !u!114 &7032917056898397772
 MonoBehaviour:
@@ -166,6 +166,8 @@ MonoBehaviour:
   timeToDestroy: 1
   mana: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
   hp: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe, type: 3}
+  kills: []
+  _spawn: {fileID: 0}
 --- !u!1 &7032917057847424386
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f774caafaa9c5e449f5d154c2635b0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 7032917056898397772}
+  stats: {fileID: 0}
 --- !u!1 &7032917058384869641
 GameObject:
   m_ObjectHideFlags: 0

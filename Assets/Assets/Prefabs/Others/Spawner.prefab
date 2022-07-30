@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2592898567896225387}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.868403, y: 0.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -46,9 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _kills: {fileID: 0}
-  _enemieSword: {fileID: 7588878320185854673, guid: 00c492848231ba9458780a10bdc9088d,
+  _enemieSword: {fileID: 1813977253113492619, guid: a28b20d120715344893e232a64c27590,
     type: 3}
-  _enemieSpear: {fileID: 3919656230965636910, guid: 97dc688436d922d41ab7ead7d3b541d7,
+  _enemieSpear: {fileID: 2824589429590122164, guid: cfb252ac3f017e7439337e1862f33c3f,
     type: 3}
   _spawnA: {fileID: 6922830571777912524}
   _spawnB: {fileID: 7629958491722460732}

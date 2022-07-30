@@ -13,12 +13,14 @@ public class AttackIA : MonoBehaviour
     public void Start()
     {
         targetPlayer = false;
+        
     }
 
     public void FixedUpdate()
     {
 
         ChangeTarget();
+      
 
     }
 
@@ -87,7 +89,7 @@ public class AttackIA : MonoBehaviour
 
     public void ChangeTarget()
     {
-
+        _playerT = GameObject.FindGameObjectWithTag("Player").transform;
         if (targetPlayer == true)
         {
             enemieMov.targetPoint = _playerT;

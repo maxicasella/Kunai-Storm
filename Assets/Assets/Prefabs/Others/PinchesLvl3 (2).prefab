@@ -141,5 +141,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killsCounter: 0
-  goFinal: 14
+  goFinal: 6
   myAnim: {fileID: 8141355447981256321}
