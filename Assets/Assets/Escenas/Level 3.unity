@@ -2180,7 +2180,7 @@ PrefabInstance:
     - target: {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855,
         type: 3}
       propertyPath: goFinal
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855,
         type: 3}
@@ -2316,18 +2316,6 @@ PrefabInstance:
       propertyPath: _kills
       value: 
       objectReference: {fileID: 773274922}
-    - target: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45,
-        type: 3}
-      propertyPath: _enemieSword
-      value: 
-      objectReference: {fileID: 1813977253113492619, guid: a28b20d120715344893e232a64c27590,
-        type: 3}
-    - target: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45,
-        type: 3}
-      propertyPath: _enemieSpear
-      value: 
-      objectReference: {fileID: 2824589429590122164, guid: cfb252ac3f017e7439337e1862f33c3f,
-        type: 3}
     - target: {fileID: 2592898567896225387, guid: 023e5ca8b9ba1c24f89db52caa879a45,
         type: 3}
       propertyPath: m_Name
@@ -2791,7 +2779,7 @@ PrefabInstance:
     - target: {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3,
         type: 3}
       propertyPath: goFinal
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3,
         type: 3}
@@ -2815,7 +2803,7 @@ PrefabInstance:
     - target: {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae,
         type: 3}
       propertyPath: goFinal
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae,
         type: 3}

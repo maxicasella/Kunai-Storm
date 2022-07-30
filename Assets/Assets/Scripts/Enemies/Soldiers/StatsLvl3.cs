@@ -20,6 +20,7 @@ public class StatsLvl3 : MonoBehaviour
     {
         enemieHP = baseHP;
         _kills = GameObject.FindGameObjectWithTag("Player").GetComponent<KillCounter>();
+        _spawn = GameObject.FindGameObjectWithTag("Spawn").GetComponent<SpawnerLvl3>();
     }
 
     void Start()
