@@ -12,6 +12,7 @@ public class Kunai : MonoBehaviour
         EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
         NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
         StatsLvl3 lvl3 = collision.GetComponent<StatsLvl3>();
+        BossStats boss = collision.GetComponent<BossStats>();
 
         if (enemieHP != null && player.kunaiEquip)
         {
@@ -31,5 +32,9 @@ public class Kunai : MonoBehaviour
             lvl3.DamageAttack(player.kunaiNormDamage);
         }
 
+        if (boss != null && player.kunaiEquip)
+        {
+            boss.DamageAttack(player.kunaiNormDamage);
+        }
     }
 }

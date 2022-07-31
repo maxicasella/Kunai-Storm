@@ -37,6 +37,7 @@ public class KunaiMov : MonoBehaviour
         EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
         NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
         StatsLvl3 lvl3 = collision.GetComponent<StatsLvl3>();
+        BossStats boss = collision.GetComponent<BossStats>();
 
         if (enemieHP != null)
         {
@@ -52,6 +53,12 @@ public class KunaiMov : MonoBehaviour
         {
             lvl3.DamageAttack(_damage);
             Destroy(this.gameObject);
+        }
+        else if (boss != null)
+        {
+            boss.DamageAttack(_damage);
+            Destroy(this.gameObject);
+
         }
         else
         {

@@ -4,15 +4,48 @@ using UnityEngine;
 
 public class BossStats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float bossHP;
+    public float baseHP;
+    public float enemieDamage;
+    public float timeToDestroy;
+    Animator enemieAnim;
+    public BossUI ui;
+
+    private void Awake()
     {
-        
+
+        bossHP = baseHP;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        PlayerStats playerHp = collision.collider.GetComponent<PlayerStats>();
+
+        if (playerHp != null)
+        {
+            playerHp.Damage(enemieDamage);
+
+        }
     }
+
+    public void DamageAttack(float damage)
+    {
+
+        if (damage > 0 && bossHP >= 0) /*Recibir daño*/
+        {
+            bossHP -= damage;
+            ui.UpdateHP(bossHP);
+        }
+
+        if (bossHP <= 0)
+        {
+
+            Destroy(this.gameObject, 0.2f);
+
+        }
+    }
+
 }
+
+
+

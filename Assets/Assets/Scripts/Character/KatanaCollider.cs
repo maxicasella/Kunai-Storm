@@ -11,6 +11,7 @@ public class KatanaCollider : MonoBehaviour
         EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
         NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
         StatsLvl3 lvl3 = collision.GetComponent<StatsLvl3>();
+        BossStats boss = collision.GetComponent<BossStats>();
 
         if (enemieHP != null && player.katanaEquip)
         {
@@ -45,6 +46,18 @@ public class KatanaCollider : MonoBehaviour
             else
             {
                 lvl3.DamageAttack(player.katanaPowerDamage);
+            }
+        }
+
+        if (boss != null && player.katanaEquip)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                boss.DamageAttack(player.katanaNormDamage);
+            }
+            else
+            {
+                boss.DamageAttack(player.katanaPowerDamage);
             }
         }
     }
