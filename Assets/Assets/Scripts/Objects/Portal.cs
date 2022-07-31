@@ -7,12 +7,19 @@ public class Portal : MonoBehaviour
     [SerializeField] GameObject _trigger;
     [SerializeField] GameObject _humo;
     [SerializeField] GameObject _bloqueoCamino;
+    [SerializeField] GameObject _uiBoss;
+    [SerializeField] Animator _visionAnim;
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         _humo.SetActive(true);
-        Destroy(_trigger);
+        _uiBoss.SetActive(true);
+        _visionAnim.SetTrigger("Destroy");
+
+        Destroy(_humo,0.3f);
         Destroy(_bloqueoCamino);
+        Destroy(_trigger);
     }
 
 

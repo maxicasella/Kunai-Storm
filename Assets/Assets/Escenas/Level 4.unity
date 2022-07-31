@@ -429,6 +429,8 @@ MonoBehaviour:
   _trigger: {fileID: 428471984}
   _humo: {fileID: 1723448700}
   _bloqueoCamino: {fileID: 1113517766}
+  _uiBoss: {fileID: 1454722217}
+  _visionAnim: {fileID: 764151264}
 --- !u!1 &443907617
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,6 +591,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &560375305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+    type: 3}
+  m_PrefabInstance: {fileID: 905440326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cda3718389561a42afee2af898d0ff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &764151261
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,13 +613,15 @@ GameObject:
   m_Component:
   - component: {fileID: 764151262}
   - component: {fileID: 764151263}
+  - component: {fileID: 764151264}
+  - component: {fileID: 764151265}
   m_Layer: 8
   m_Name: Vista reducida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &764151262
 Transform:
   m_ObjectHideFlags: 0
@@ -669,6 +685,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &764151264
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764151261}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b221b940be867314ca50065a1deb2a90, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &764151265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764151261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b1b8ab2b609af44a6a61272edccc1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &863523048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1720,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8261429365875560492, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
+        type: 3}
+      propertyPath: stats
+      value: 
+      objectReference: {fileID: 560375305}
     - target: {fileID: 8261429366242215789, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
         type: 3}
       propertyPath: m_Camera
@@ -2259,6 +2311,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1454722217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7779147745765884805, guid: fd323cb6c633d6c49a5bda53ad59a7e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 969782637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1472257708
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,7 +2392,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 46b8aed8652afb147b3cca1fc746ac32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
