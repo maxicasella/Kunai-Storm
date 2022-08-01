@@ -17,7 +17,7 @@ public class VisionRange : MonoBehaviour
 
         enemies.SetBool("Attack", true);
         enemies.SetBool("Caminata", false);
-
+        
         if (spriteRenderer.flipX == false)
         {
 
