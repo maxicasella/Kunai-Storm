@@ -11,19 +11,12 @@ public class VisionRange : MonoBehaviour
 
     public bool isMove;
 
-    private void Start()
-    {
-        //isMove = true;
-    }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();
 
         enemies.SetBool("Attack", true);
         enemies.SetBool("Caminata", false);
-
-       
 
         if (spriteRenderer.flipX == false)
         {
@@ -45,10 +38,10 @@ public class VisionRange : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D collision)
-    {
-        
+    {        
         enemies.SetBool("Attack", false);
         enemies.SetBool("Caminata", true);
+        isMove = false;
            
     }
 }

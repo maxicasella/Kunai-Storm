@@ -1034,6 +1034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7841506657235258664, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: canvasHP
@@ -1117,7 +1122,7 @@ PrefabInstance:
     - target: {fileID: 7841506657235258669, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
@@ -1880,13 +1885,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165802700}
-  m_LocalRotation: {x: 0, y: 0, z: -0.11580401, w: 0.9932721}
+  m_LocalRotation: {x: 0, y: 0, z: 0.3599968, w: 0.9329536}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1472257711}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.3}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.2}
 --- !u!114 &1165802702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1907,13 +1912,13 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165802700}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.84566844, y: -1.2175498}
+  m_Offset: {x: 1.5, y: -0.85}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2035,7 +2040,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223686151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.39, y: -3.47, z: 0}
+  m_LocalPosition: {x: -0.56, y: -3.47, z: 0}
   m_LocalScale: {x: 1.0513024, y: 0.8947255, z: 0.8947255}
   m_Children: []
   m_Father: {fileID: 1472257711}
@@ -2881,7 +2886,6 @@ GameObject:
   - component: {fileID: 1472257710}
   - component: {fileID: 1472257709}
   - component: {fileID: 1472257712}
-  - component: {fileID: 1472257714}
   - component: {fileID: 1472257713}
   - component: {fileID: 1472257715}
   m_Layer: 9
@@ -2947,7 +2951,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: 46b8aed8652afb147b3cca1fc746ac32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2967,8 +2971,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472257708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.36, y: 0.53, z: 0}
-  m_LocalScale: {x: 0.4461588, y: 0.4461588, z: 0.4461588}
+  m_LocalPosition: {x: -6.364, y: 0.48785, z: 0}
+  m_LocalScale: {x: 0.38417396, y: 0.38417396, z: 0.38417396}
   m_Children:
   - {fileID: 1223686152}
   - {fileID: 1950058041}
@@ -3019,24 +3023,6 @@ MonoBehaviour:
   baseHP: 400
   enemieDamage: 10
   ui: {fileID: 1539934230}
---- !u!114 &1472257714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1472257708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49a72766ded2d834ca7f73360c904132, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPlayer: 0
-  _bossMov: {fileID: 1472257715}
-  _playerT: {fileID: 11739943}
-  mySprite: {fileID: 1472257710}
-  _myAnim: {fileID: 0}
-  _move: {fileID: 0}
 --- !u!114 &1472257715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3049,9 +3035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14c1145b45904b42a7e6b6a7f75f815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 2
+  _speed: 1.2
   _playerT: {fileID: 11739943}
-  _iddleT: {fileID: 1472257711}
+  iddleT: {fileID: 1472257711}
   targetPoint: {fileID: 0}
   _mySpriteR: {fileID: 1472257710}
   _move: {fileID: 1950058042}

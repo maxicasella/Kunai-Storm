@@ -6,7 +6,7 @@ public class BossMovement : MonoBehaviour
 {
     [SerializeField] float _speed;
     [SerializeField] Transform _playerT;
-    [SerializeField] Transform _iddleT;
+    public Transform iddleT;
     public Transform targetPoint;
     [SerializeField] SpriteRenderer _mySpriteR;
     [SerializeField] VisionRange _move;
@@ -14,24 +14,20 @@ public class BossMovement : MonoBehaviour
 
     private void Start()
     {
-        targetPoint = _iddleT;
-
-       
+        targetPoint = iddleT;
+              
     }
 
     private void Update()
     {
+
         if (targetPoint == _playerT)
         {
             _move.isMove = true;
-            _myAnim.SetBool("Caminata", true);
+            
         }
 
-        if (_move.isMove == false)
-        {
-            targetPoint = _iddleT;
-        }
-    }
+          }
 
     private void FixedUpdate()
     {

@@ -18,6 +18,14 @@ public class BossIA : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+         if(targetPlayer == false)
+        {
+            _move.isMove = false;
+           
+        }
+    }
     public void FixedUpdate()
     {
          ChangeTarget();
@@ -33,18 +41,12 @@ public class BossIA : MonoBehaviour
         {
             targetPlayer = true;
             _move.isMove = true;
+            _myAnim.SetBool("Caminata", true);
+            _myAnim.SetBool("Iddle", false);
 
         }
 
     }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-
-        PlayerMovement movement = collision.GetComponent<PlayerMovement>();
-
-    }
-
 
     public void OnTriggerExit2D(Collider2D collider)
     {
@@ -56,6 +58,7 @@ public class BossIA : MonoBehaviour
             _move.isMove = false;
             _myAnim.SetBool("Caminata", false);
             _myAnim.SetBool("Iddle", true);
+            
         }
 
     }
@@ -67,10 +70,14 @@ public class BossIA : MonoBehaviour
         {
             _bossMov.targetPoint = _playerT;
             _move.isMove = true;
-            _myAnim.SetBool("Caminata", true);
+                        
         }
-
-
+        else
+        {
+            _bossMov.targetPoint = _bossMov.iddleT;
+            _move.isMove = false;
+        }
+   
     }
 }
 
