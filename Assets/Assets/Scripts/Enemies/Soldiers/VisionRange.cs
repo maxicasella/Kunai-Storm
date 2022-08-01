@@ -20,6 +20,8 @@ public class VisionRange : MonoBehaviour
     {
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();
 
+        isMove = false;
+
         enemies.SetBool("Attack", true);
         enemies.SetBool("Caminata", false);
         
@@ -46,7 +48,7 @@ public class VisionRange : MonoBehaviour
     {        
         enemies.SetBool("Attack", false);
         enemies.SetBool("Caminata", true);
-        isMove = false;
+        isMove = true;
            
     }
 }

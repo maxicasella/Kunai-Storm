@@ -5,14 +5,13 @@ using UnityEngine.UI;
 
 public class EnemiesIA : MonoBehaviour
 {
-    public float speed;
+    [SerializeField] float speed;
     Animator enemiesAnimator;
     public Transform point1;
     public Transform point2;
     public Transform targetPoint;
     SpriteRenderer spriteRenderer;
-
-    public VisionRange move;
+    [SerializeField] VisionRange move;
     
     private void Start()
     {
@@ -29,7 +28,6 @@ public class EnemiesIA : MonoBehaviour
 
     private void FixedUpdate()
     {
-
            
         if (move.isMove)
         {
@@ -37,7 +35,6 @@ public class EnemiesIA : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
             if (Vector3.Distance(transform.position, targetPoint.position) == 0.00)
             {
-
                 if (targetPoint == point1)
                 {
                   

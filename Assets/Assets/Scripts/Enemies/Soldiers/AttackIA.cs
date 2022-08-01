@@ -8,6 +8,8 @@ public class AttackIA : MonoBehaviour
     [SerializeField] EnemiesIA enemieMov;
     [SerializeField] Transform _playerT;
     [SerializeField] SpriteRenderer mySprite;
+    Transform target;
+    [SerializeField] VisionRange _move;
 
 
     public void Start()
@@ -27,6 +29,7 @@ public class AttackIA : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         PlayerStats player = collision.GetComponent<PlayerStats>();
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();
 
@@ -58,6 +61,8 @@ public class AttackIA : MonoBehaviour
 
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();
 
+        _move.isMove = true;
+
         if (mySprite.flipX == false)
         {
             if (movement.movder == true)
@@ -79,10 +84,12 @@ public class AttackIA : MonoBehaviour
     public void OnTriggerExit2D(Collider2D collider)
     {
         PlayerStats player = collider.GetComponent<PlayerStats>();
+        _move.isMove = true;
 
         if (player != null)
         {
             targetPlayer = false;
+            
         }
 
     }
@@ -90,11 +97,12 @@ public class AttackIA : MonoBehaviour
     public void ChangeTarget()
     {
         _playerT = GameObject.FindGameObjectWithTag("Player").transform;
+
         if (targetPlayer == true)
         {
             enemieMov.targetPoint = _playerT;
         }
-
-       
+        
+              
     }
 }
