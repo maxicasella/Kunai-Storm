@@ -7,13 +7,13 @@ public class BossStats : MonoBehaviour
     public float bossHP;
     public float baseHP;
     public float enemieDamage;
-    public float timeToDestroy;
     Animator enemieAnim;
     public BossUI ui;
 
     private void Awake()
     {
 
+        enemieAnim = GetComponent<Animator>();
         bossHP = baseHP;
     }
 
@@ -39,8 +39,8 @@ public class BossStats : MonoBehaviour
 
         if (bossHP <= 0)
         {
-
-            Destroy(this.gameObject, 0.2f);
+            enemieAnim.SetTrigger("Death");
+            Destroy(this.gameObject, 1.5f);
 
         }
     }
