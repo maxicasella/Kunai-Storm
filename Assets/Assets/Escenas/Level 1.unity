@@ -2166,6 +2166,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 206646649}
+    - target: {fileID: 8130545678000709872, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8130545678000709873, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2696,6 +2701,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032917056898397769, guid: 41856da477b1edd44a9c8287b0cf65dc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7032917058384869643, guid: 41856da477b1edd44a9c8287b0cf65dc,
         type: 3}

@@ -2601,6 +2601,11 @@ PrefabInstance:
       propertyPath: targetP
       value: 
       objectReference: {fileID: 707964709}
+    - target: {fileID: 2824589429590122174, guid: cfb252ac3f017e7439337e1862f33c3f,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3505559811857716628, guid: cfb252ac3f017e7439337e1862f33c3f,
         type: 3}
       propertyPath: kills.Array.data[0]
