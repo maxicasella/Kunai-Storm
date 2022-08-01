@@ -211,7 +211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1186879227
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: b97ec50b82b4b8f42a18fb4e1108aa3b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -252,7 +252,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.8152489, y: -0.0035538077}
@@ -354,6 +354,7 @@ MonoBehaviour:
   _playerT: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2,
     type: 3}
   mySprite: {fileID: 1813977253113492618}
+  _move: {fileID: 0}
 --- !u!61 &6926556676646803105
 BoxCollider2D:
   m_ObjectHideFlags: 0

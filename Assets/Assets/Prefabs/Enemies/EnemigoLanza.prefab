@@ -212,7 +212,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 8a204bb437116a14c972d3776944ffd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -253,7 +253,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.16383457, y: 0}
@@ -304,11 +304,8 @@ MonoBehaviour:
   timeToDestroy: 1
   mana: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
   hp: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe, type: 3}
-  kills:
-  - {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855, type: 3}
-  - {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae, type: 3}
-  - {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3, type: 3}
   _spawn: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45, type: 3}
+  _kills: {fileID: 0}
 --- !u!1 &6214837121391124437
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +435,7 @@ MonoBehaviour:
   _playerT: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2,
     type: 3}
   mySprite: {fileID: 2824589429590122170}
+  _move: {fileID: 0}
 --- !u!61 &7702128057054385187
 BoxCollider2D:
   m_ObjectHideFlags: 0
