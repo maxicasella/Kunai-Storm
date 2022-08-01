@@ -26,6 +26,11 @@ public class BossMovement : MonoBehaviour
             _move.isMove = true;
             _myAnim.SetBool("Caminata", true);
         }
+
+        if (_move.isMove == false)
+        {
+            targetPoint = _iddleT;
+        }
     }
 
     private void FixedUpdate()
@@ -36,6 +41,8 @@ public class BossMovement : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, _speed * Time.deltaTime);
 
         }
+
+       
 
     }
 

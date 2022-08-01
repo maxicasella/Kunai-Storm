@@ -9,6 +9,7 @@ public class BossIA : MonoBehaviour
     [SerializeField] Transform _playerT;
     [SerializeField] SpriteRenderer mySprite;
     [SerializeField] Animator _myAnim;
+    [SerializeField] VisionRange _move;
 
 
     public void Start()
@@ -19,10 +20,7 @@ public class BossIA : MonoBehaviour
 
     public void FixedUpdate()
     {
-
-        ChangeTarget();
-
-
+         ChangeTarget();
     }
 
 
@@ -34,23 +32,7 @@ public class BossIA : MonoBehaviour
         if (player != null)
         {
             targetPlayer = true;
-
-        }
-
-        if (mySprite.flipX == false)
-        {
-            if (movement.movizq == true)
-            {
-                mySprite.flipX = true;
-            }
-          
-        }
-        else
-        {
-            if (movement.movder == true)
-            {
-                mySprite.flipX = false;
-            }
+            _move.isMove = true;
 
         }
 
@@ -60,23 +42,6 @@ public class BossIA : MonoBehaviour
     {
 
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();
-
-        if (mySprite.flipX == false)
-        {
-
-            if (movement.movizq == true)
-            {
-                mySprite.flipX = true;
-            }
-            
-        }
-        else
-        {
-            if (movement.movder == true)
-            {
-                mySprite.flipX = false;
-            }
-        }
 
     }
 
@@ -88,6 +53,9 @@ public class BossIA : MonoBehaviour
         if (player != null)
         {
             targetPlayer = false;
+            _move.isMove = false;
+            _myAnim.SetBool("Caminata", false);
+            _myAnim.SetBool("Iddle", true);
         }
 
     }
@@ -98,6 +66,7 @@ public class BossIA : MonoBehaviour
         if (targetPlayer == true)
         {
             _bossMov.targetPoint = _playerT;
+            _move.isMove = true;
             _myAnim.SetBool("Caminata", true);
         }
 
