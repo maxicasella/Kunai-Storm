@@ -8,10 +8,13 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D playerRgbd;
     public float movementSpeed;
     public Animator playerMovement;
+    [SerializeField] PlayerStats _stats;
+   
+
 
     public bool movizq;
     public bool movder;
-    
+
 
     void FixedUpdate()
     {
