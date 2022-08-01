@@ -4,40 +4,104 @@ using UnityEngine;
 
 public class BossIA : MonoBehaviour
 {
-    [SerializeField] float speed;
-    [SerializeField] Animator _bossAnimator;
-    public Transform point1;
-    public Transform point2;
-    public Transform targetPoint;
-    [SerializeField] SpriteRenderer spriteRenderer;
+    public bool targetPlayer;
+    [SerializeField] BossMovement _bossMov;
+    [SerializeField] Transform _playerT;
+    [SerializeField] SpriteRenderer mySprite;
+    [SerializeField] Animator _myAnim;
 
-    public VisionRange move;
 
-    private void FixedUpdate()
+    public void Start()
+    {
+        targetPlayer = false;
+
+    }
+
+    public void FixedUpdate()
     {
 
+        ChangeTarget();
 
-        if (move.isMove)
+
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        PlayerStats player = collision.GetComponent<PlayerStats>();
+        PlayerMovement movement = collision.GetComponent<PlayerMovement>();
+
+        if (player != null)
+        {
+            targetPlayer = true;
+
+        }
+
+        if (mySprite.flipX == false)
+        {
+            if (movement.movizq == true)
+            {
+                mySprite.flipX = true;
+            }
+          
+        }
+        else
+        {
+            if (movement.movder == true)
+            {
+                mySprite.flipX = false;
+            }
+
+        }
+
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+
+        PlayerMovement movement = collision.GetComponent<PlayerMovement>();
+
+        if (mySprite.flipX == false)
         {
 
-            transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, speed * Time.deltaTime);
-            if (Vector3.Distance(transform.position, targetPoint.position) == 0.00)
+            if (movement.movizq == true)
             {
-
-                if (targetPoint == point1)
-                {
-
-                    targetPoint = point2;
-                    spriteRenderer.flipX = true;
-                }
-                else if (targetPoint == point2)
-                {
-
-                    targetPoint = point1;
-                    spriteRenderer.flipX = false;
-                }
+                mySprite.flipX = true;
+            }
+            
+        }
+        else
+        {
+            if (movement.movder == true)
+            {
+                mySprite.flipX = false;
             }
         }
+
+    }
+
+
+    public void OnTriggerExit2D(Collider2D collider)
+    {
+        PlayerStats player = collider.GetComponent<PlayerStats>();
+
+        if (player != null)
+        {
+            targetPlayer = false;
+        }
+
+    }
+
+    public void ChangeTarget()
+    {
+        
+        if (targetPlayer == true)
+        {
+            _bossMov.targetPoint = _playerT;
+            _myAnim.SetBool("Caminata", true);
+        }
+
+
     }
 }
 
