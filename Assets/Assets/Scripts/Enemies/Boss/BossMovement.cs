@@ -16,18 +16,24 @@ public class BossMovement : MonoBehaviour
     {
         targetPoint = _iddleT;
 
+       
+    }
+
+    private void Update()
+    {
         if (targetPoint == _playerT)
         {
+            _move.isMove = true;
             _myAnim.SetBool("Caminata", true);
         }
     }
 
     private void FixedUpdate()
     {
+
         if (_move.isMove)
         {
             transform.position = Vector3.MoveTowards(transform.position, targetPoint.position, _speed * Time.deltaTime);
-
 
         }
 
