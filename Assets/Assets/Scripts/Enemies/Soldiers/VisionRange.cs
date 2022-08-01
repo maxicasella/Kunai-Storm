@@ -11,6 +11,11 @@ public class VisionRange : MonoBehaviour
 
     public bool isMove;
 
+    private void Start()
+    {
+        isMove = true;
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         PlayerMovement movement = collision.GetComponent<PlayerMovement>();

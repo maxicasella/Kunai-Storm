@@ -211,7 +211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1186879227
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: 21300000, guid: b97ec50b82b4b8f42a18fb4e1108aa3b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -303,11 +303,8 @@ MonoBehaviour:
   timeToDestroy: 1
   mana: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
   hp: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe, type: 3}
-  kills:
-  - {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855, type: 3}
-  - {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae, type: 3}
-  - {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3, type: 3}
   _spawn: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45, type: 3}
+  _kills: {fileID: 0}
 --- !u!1 &6926556676646803107
 GameObject:
   m_ObjectHideFlags: 0

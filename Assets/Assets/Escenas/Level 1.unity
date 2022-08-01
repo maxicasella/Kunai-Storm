@@ -2356,6 +2356,11 @@ PrefabInstance:
       propertyPath: speed_shine
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8130545678000709886, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8130545678000709887, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_Name
@@ -2631,6 +2636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemigo Espada Inf
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032917056898397767, guid: 41856da477b1edd44a9c8287b0cf65dc,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7032917056898397768, guid: 41856da477b1edd44a9c8287b0cf65dc,
         type: 3}
