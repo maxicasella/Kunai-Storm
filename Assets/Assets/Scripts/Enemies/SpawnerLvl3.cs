@@ -12,6 +12,11 @@ public class SpawnerLvl3 : MonoBehaviour
 
     public float spawn = 1;
 
+    private void Awake()
+    {
+        Instantiate(_enemieSword, _spawnB.position, Quaternion.identity);
+        Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
+    }
     private void Update()
     {
         if (spawn == 1)
