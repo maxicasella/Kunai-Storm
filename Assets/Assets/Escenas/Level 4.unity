@@ -3307,10 +3307,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bossHp: {fileID: 1472257713}
-  _soldiersA: {fileID: 1813977253113492619, guid: a28b20d120715344893e232a64c27590,
+  _soldiersA: {fileID: 7371775208809541228, guid: 15014f6f038967b4b8aa89b0700ca3d3,
     type: 3}
   _spawnerA: {fileID: 1150650702}
-  _soldierB: {fileID: 2824589429590122164, guid: cfb252ac3f017e7439337e1862f33c3f,
+  _soldierB: {fileID: 9126103832277349655, guid: 0dfa82bcb4a9d6f4a892823d32676154,
     type: 3}
   _spawnerB: {fileID: 1552360768}
   _myAnim: {fileID: 1472257709}
