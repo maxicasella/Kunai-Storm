@@ -22,15 +22,7 @@ public class VisionRange : MonoBehaviour
         enemies.SetBool("Attack", true);
         enemies.SetBool("Caminata", false);
         isMove = false;
-        
-        //if (player.position.x > 0)
-        //{
-        //    spriteRenderer.flipX = false;
-        //}
-        //else if(player.position.x < 0)
-        //{
-        //    spriteRenderer.flipX = true;
-        //}
+              
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -38,14 +30,6 @@ public class VisionRange : MonoBehaviour
         isMove = true;
         enemies.SetBool("Attack", false);
         enemies.SetBool("Caminata", true);
-        //if (soldier.position.x < 0)
-        //{
-        //    spriteRenderer.flipX = false;
-        //}
-        //else if (soldier.position.x > 0)
-        //{
-        //    spriteRenderer.flipX = true;
-        //}
-       
+           
     }
 }
