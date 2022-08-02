@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossStats : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class BossStats : MonoBehaviour
             enemieAnim.SetTrigger("Death");
             Destroy(this.gameObject, 1.5f);
             Destroy(_uiBoss);
+            SceneManager.LoadScene(10);
 
         }
     }
