@@ -44,9 +44,14 @@ public class BossStats : MonoBehaviour
             enemieAnim.SetTrigger("Death");
             Destroy(this.gameObject, 1.5f);
             Destroy(_uiBoss);
-            SceneManager.LoadScene(10);
+            
 
         }
+    }
+
+    public void PlayerWin()
+    {
+        SceneManager.LoadScene(10);
     }
 
 }
