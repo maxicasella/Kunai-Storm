@@ -306,6 +306,8 @@ MonoBehaviour:
   hp: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe, type: 3}
   _spawn: {fileID: 2592898567896225385, guid: 023e5ca8b9ba1c24f89db52caa879a45, type: 3}
   _kills: {fileID: 0}
+  _impactParticle: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+    type: 3}
 --- !u!1 &6214837121391124437
 GameObject:
   m_ObjectHideFlags: 0

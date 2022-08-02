@@ -13,7 +13,7 @@ public class EnemieStats : MonoBehaviour
     public GameObject hp;
     [SerializeField] EnemiesDeath[] kills;
     [SerializeField] SpawnerLvl3 _spawn;
-
+    [SerializeField] GameObject _impactParticle;
 
     private void Awake()
     {
@@ -45,6 +45,7 @@ public class EnemieStats : MonoBehaviour
         if (damage > 0 && enemieHP >= 0) /*Recibir daño*/
         {
             enemieHP -= damage;
+            Instantiate(_impactParticle, transform.position, Quaternion.identity);
         }
 
         if (enemieHP <= 0)

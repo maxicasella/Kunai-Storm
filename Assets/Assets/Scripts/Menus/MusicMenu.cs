@@ -16,18 +16,24 @@ public class MusicMenu : MonoBehaviour
             Destroy(this.gameObject);
         }
 
+     
+
+        DontDestroyOnLoad(this.gameObject);
+ 
+    }
+
+    private void Start()
+    {
         OnLevelWasLoaded(activeScene);
 
-        if(activeScene < 5)
+        if (activeScene < 5)
         {
             DontDestroyOnLoad(this.gameObject);
         }
-        else
+        else if (activeScene >= 5)
         {
             Destroy(this.gameObject);
         }
-
-                 
     }
     private void OnLevelWasLoaded(int level)
     {

@@ -1436,6 +1436,12 @@ PrefabInstance:
       propertyPath: canvasHP
       value: 
       objectReference: {fileID: 106491071}
+    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: blood
+      value: 
+      objectReference: {fileID: 6093413257480322733, guid: 3e24f79c974904d45bc1be1626ecfaf1,
+        type: 3}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment
@@ -2779,6 +2785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f2343f2b678fe4a8428540eaca9863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeScene: 0
 --- !u!4 &1279662584
 Transform:
   m_ObjectHideFlags: 0

@@ -15,8 +15,8 @@ public class PlayerStats : MonoBehaviour
 
     public Animator playerAnim;
     public UIhp canvasHP;
-
     public PlayerAttack weapon;
+    public GameObject blood;
 
     public string scene;
    
@@ -39,6 +39,7 @@ public class PlayerStats : MonoBehaviour
         if (damage>0 && playerHp >0)
         {
             playerHp -= damage;
+            Instantiate(blood, transform.position, Quaternion.identity);
             canvasHP.UpdateHP(playerHp);
             
         }
@@ -49,22 +50,13 @@ public class PlayerStats : MonoBehaviour
             if (weapon.kunaiEquip == true)
             {
                 playerAnim.SetTrigger("Death Kunai");
-                //if (lossCanvas != null)
-                //{
-                //    lossCanvas.SetActive(true);
-                //}
+               
             }
             else if (weapon.katanaEquip == true)
             {
                 playerAnim.SetTrigger("Death Katana");
-                //if (lossCanvas != null)
-                //{
-                //    lossCanvas.SetActive(true);
-                //}
+                
             }
-
-
-
 
 
         }

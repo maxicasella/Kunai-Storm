@@ -1053,6 +1053,12 @@ PrefabInstance:
       propertyPath: scene
       value: Level 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: blood
+      value: 
+      objectReference: {fileID: 6093413257480322733, guid: 3e24f79c974904d45bc1be1626ecfaf1,
+        type: 3}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment
@@ -1830,6 +1836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f2343f2b678fe4a8428540eaca9863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeScene: 0
 --- !u!4 &597204226
 Transform:
   m_ObjectHideFlags: 0
@@ -3784,6 +3791,12 @@ PrefabInstance:
       propertyPath: speed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8146304128731734252, guid: 70cb515af2d5f144b88d0db4509d339c,
+        type: 3}
+      propertyPath: _impactParticle
+      value: 
+      objectReference: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+        type: 3}
     - target: {fileID: 8146304128731734253, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4670,6 +4683,12 @@ PrefabInstance:
       propertyPath: speed
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8146304128731734252, guid: 70cb515af2d5f144b88d0db4509d339c,
+        type: 3}
+      propertyPath: _impactParticle
+      value: 
+      objectReference: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+        type: 3}
     - target: {fileID: 8146304128731734253, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4869,6 +4888,12 @@ PrefabInstance:
       propertyPath: speed
       value: 1.7
       objectReference: {fileID: 0}
+    - target: {fileID: 8146304128731734252, guid: 70cb515af2d5f144b88d0db4509d339c,
+        type: 3}
+      propertyPath: _impactParticle
+      value: 
+      objectReference: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+        type: 3}
     - target: {fileID: 8146304128731734253, guid: 70cb515af2d5f144b88d0db4509d339c,
         type: 3}
       propertyPath: m_IsTrigger

@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6195810499247142042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9126103832168957654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf73433d895bf9a4c9ec5891fe9207c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 3167117787394878527}
 --- !u!114 &3167117787394878527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20,19 +33,8 @@ MonoBehaviour:
   hp: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
   kills: []
   _spawn: {fileID: 0}
---- !u!114 &6195810499247142042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9126103832168957654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf73433d895bf9a4c9ec5891fe9207c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stats: {fileID: 3167117787394878527}
+  _impactParticle: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+    type: 3}
 --- !u!1001 &6454953540668500899
 PrefabInstance:
   m_ObjectHideFlags: 0

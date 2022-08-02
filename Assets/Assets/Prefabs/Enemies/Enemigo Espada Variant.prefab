@@ -20,6 +20,8 @@ MonoBehaviour:
   hp: {fileID: 2980437688674289946, guid: a35afdcebc4d3f042835259d04ae6fa0, type: 3}
   kills: []
   _spawn: {fileID: 0}
+  _impactParticle: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+    type: 3}
 --- !u!114 &8046443338509292309
 MonoBehaviour:
   m_ObjectHideFlags: 0

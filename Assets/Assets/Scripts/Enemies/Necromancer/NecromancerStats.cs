@@ -10,8 +10,7 @@ public class NecromancerStats : MonoBehaviour
     public float timeToDestroy;
     Animator enemieAnim;
     public GameObject key;
-
-    public UINecro ui;
+     public UINecro ui;
 
     [SerializeField] GameObject _ui;
     private void Awake()
