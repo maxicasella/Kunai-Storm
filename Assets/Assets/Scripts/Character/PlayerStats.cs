@@ -91,4 +91,9 @@ public class PlayerStats : MonoBehaviour
             SceneManager.LoadScene(scene);
         }
     }
+
+    public void Death()
+    {
+        SceneManager.LoadScene(9);
+    }
 }
