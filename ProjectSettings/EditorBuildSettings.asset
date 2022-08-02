@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Assets/Escenas/Instrucciones.unity
     guid: 6055405ddc4c4094893bb086ac1d4e74
   - enabled: 1
+    path: Assets/Assets/Escenas/Intro.unity
+    guid: 253d7cab339c25840bf7ec4e9e88cbe9
+  - enabled: 1
     path: Assets/Assets/Escenas/Level 1.unity
     guid: c2f904673b7b7cc4493c9ddb3ae460db
   - enabled: 1
@@ -29,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Escenas/Level 4.unity
     guid: f2fce5ebec1e3b5449b3d3218e5fdeab
+  - enabled: 1
+    path: Assets/Assets/Escenas/Victoria.unity
+    guid: 1b7250de3fb0c3d42ab637ba6fa9b06c
+  - enabled: 1
+    path: Assets/Assets/Escenas/Derrota.unity
+    guid: 96211b82333f25744a036d011ac870e2
   m_configObjects: {}
