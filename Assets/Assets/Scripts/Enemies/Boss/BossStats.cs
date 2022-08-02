@@ -9,6 +9,7 @@ public class BossStats : MonoBehaviour
     public float enemieDamage;
     Animator enemieAnim;
     public BossUI ui;
+    [SerializeField] GameObject _uiBoss;
 
     private void Awake()
     {
@@ -41,6 +42,7 @@ public class BossStats : MonoBehaviour
         {
             enemieAnim.SetTrigger("Death");
             Destroy(this.gameObject, 1.5f);
+            Destroy(_uiBoss);
 
         }
     }

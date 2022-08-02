@@ -10,7 +10,7 @@ public class GoFinalLvl : MonoBehaviour
       PlayerStats player = collision.GetComponent<PlayerStats>();
         if (player != null)
         {
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene(8);
         }
        
     }
