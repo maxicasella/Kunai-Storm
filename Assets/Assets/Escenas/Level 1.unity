@@ -3700,6 +3700,10 @@ PrefabInstance:
       propertyPath: cursor
       value: 
       objectReference: {fileID: 739160370}
+    - target: {fileID: 710913655, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258659, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: m_Name
