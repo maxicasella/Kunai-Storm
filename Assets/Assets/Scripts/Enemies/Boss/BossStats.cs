@@ -11,6 +11,7 @@ public class BossStats : MonoBehaviour
     Animator enemieAnim;
     public BossUI ui;
     [SerializeField] GameObject _uiBoss;
+    [SerializeField] GameObject _particleSystem;
 
     private void Awake()
     {
@@ -36,6 +37,7 @@ public class BossStats : MonoBehaviour
         if (damage > 0 && bossHP >= 0) /*Recibir daño*/
         {
             bossHP -= damage;
+            Instantiate(_particleSystem, transform.position, Quaternion.identity);
             ui.UpdateHP(bossHP);
         }
 

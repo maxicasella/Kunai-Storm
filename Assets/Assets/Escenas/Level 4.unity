@@ -1842,7 +1842,7 @@ ParticleSystem:
     startRotation:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0
+      scalar: 0.008726646
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -8276,6 +8276,8 @@ MonoBehaviour:
   enemieDamage: 10
   ui: {fileID: 1539934230}
   _uiBoss: {fileID: 1454722217}
+  _particleSystem: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
+    type: 3}
 --- !u!114 &1472257714
 MonoBehaviour:
   m_ObjectHideFlags: 0
