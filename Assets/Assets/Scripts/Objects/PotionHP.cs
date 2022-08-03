@@ -14,7 +14,7 @@ public class PotionHP : MonoBehaviour
 
         if (playerHp != null)
         {
-            //hpPotion.Play();
+            hpPotion.Play();
             playerHp.PotionHp(recupHP);
             Destroy(this.gameObject, 0.5f);
 

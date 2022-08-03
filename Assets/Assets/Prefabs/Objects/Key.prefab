@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1712138849953524609}
   - component: {fileID: 4845193574956496347}
   - component: {fileID: -8428609753441138374}
-  m_Layer: 15
+  m_Layer: 14
   m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: aecef3cafb251644985e93a84fc060d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -143,7 +143,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4966d3172d56b19419699df34c198050, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

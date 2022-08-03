@@ -13,7 +13,7 @@ public class Key : MonoBehaviour
         {
             _audio.Play();
             lvlkey.Key();
-            Destroy(this.gameObject);
+            Destroy(this.gameObject,0.5f);
         }
         
     }

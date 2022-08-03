@@ -13,7 +13,7 @@ public class PotionMana : MonoBehaviour
 
         if (playerMana !=null)
         {
-            //audioMana.Play();
+            audioMana.Play();
             playerMana.PotionMana(recupMana);
             Destroy(this.gameObject, 0.5f);
         }
