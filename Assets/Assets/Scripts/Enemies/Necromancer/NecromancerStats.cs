@@ -11,6 +11,7 @@ public class NecromancerStats : MonoBehaviour
     Animator enemieAnim;
     public GameObject key;
      public UINecro ui;
+    public GameObject particleSystem;
 
     [SerializeField] GameObject _ui;
     private void Awake()
@@ -37,6 +38,7 @@ public class NecromancerStats : MonoBehaviour
         if (damage > 0 && necroHP >= 0) /*Recibir daño*/
         {
             necroHP -= damage;
+            Instantiate(particleSystem, transform.position, Quaternion.identity);
             ui.UpdateHP(necroHP);
         }
 
