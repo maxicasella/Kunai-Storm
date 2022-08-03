@@ -17,8 +17,8 @@ public class PlayerStats : MonoBehaviour
     public UIhp canvasHP;
     public PlayerAttack weapon;
     public GameObject blood;
-
     public string scene;
+   
    
    private void Awake()
     {
