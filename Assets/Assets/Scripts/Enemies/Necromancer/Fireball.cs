@@ -7,6 +7,7 @@ public class Fireball : MonoBehaviour
 
     [SerializeField] float _force;
     [SerializeField] Transform _target;
+    [SerializeField] AudioSource _audio;
     
     public float dmg;
     
@@ -17,10 +18,12 @@ public class Fireball : MonoBehaviour
     {
         _myRb = GetComponent<Rigidbody2D>();
 
+        
         Vector2 targetPos = _target.position;
         _dir = targetPos - (Vector2)transform.position;
+        _audio.Play();
 
-        
+
     }
     private void FixedUpdate()
     {

@@ -26,6 +26,10 @@ public class PlayerAttack : MonoBehaviour
     public UImana canvasMana;
 
     [SerializeField] SpriteRenderer _shootPoint;
+    [SerializeField] AudioSource _katanaNorm;
+    [SerializeField] AudioSource _katanaPwr;
+    [SerializeField] AudioSource _kunaiNorm;
+    [SerializeField] AudioSource _kunaiPwr;
 
     private void Awake()
     {
@@ -84,6 +88,7 @@ public class PlayerAttack : MonoBehaviour
             else if (katanaEquip)
             {
                 playerMovement.SetBool("AttackNormKatana", true);
+                _katanaNorm.Play();
             }
 
 
@@ -121,6 +126,7 @@ public class PlayerAttack : MonoBehaviour
             if (katanaEquip && playerMana > 0)
             {
                 playerMovement.SetBool("AttackPowerKatana", true);
+                _katanaPwr.Play();
                 playerMana -= _powerKatana;
                 canvasMana.UpdateMana(playerMana);
 
