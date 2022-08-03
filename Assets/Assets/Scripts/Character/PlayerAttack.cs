@@ -88,7 +88,7 @@ public class PlayerAttack : MonoBehaviour
             else if (katanaEquip)
             {
                 playerMovement.SetBool("AttackNormKatana", true);
-                _katanaNorm.Play();
+
             }
 
 
@@ -98,6 +98,7 @@ public class PlayerAttack : MonoBehaviour
             if (kunaiEquip)
             {
                 playerMovement.SetBool("AttackNormKunai", false);
+               
             }
             else if (katanaEquip)
             {
@@ -126,7 +127,6 @@ public class PlayerAttack : MonoBehaviour
             if (katanaEquip && playerMana > 0)
             {
                 playerMovement.SetBool("AttackPowerKatana", true);
-                _katanaPwr.Play();
                 playerMana -= _powerKatana;
                 canvasMana.UpdateMana(playerMana);
 
@@ -186,5 +186,25 @@ public class PlayerAttack : MonoBehaviour
         {
             _katanaRecolectable = equip;
         }
+    }
+
+    public void AudioKatanaNorm()
+    {
+        _katanaNorm.Play();
+    }
+
+    public void AudioKunaiNorm()
+    {
+        _kunaiNorm.Play();
+    }
+
+    public void AudioKunaiPwr()
+    {
+        _kunaiPwr.Play();
+    }
+
+    public void AudioKatanaPwr()
+    {
+        _katanaPwr.Play();
     }
 }
