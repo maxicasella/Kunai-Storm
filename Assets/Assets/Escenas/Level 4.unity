@@ -9238,7 +9238,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 790467a9125768046b9e7bfad1a884e8, type: 2}
+      objectReference: {fileID: 9100000, guid: 2830f97f827cf0942bb8ad0040627367, type: 2}
     - target: {fileID: 4653719617087676243, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
       propertyPath: m_Name
@@ -9317,7 +9317,7 @@ PrefabInstance:
     - target: {fileID: 4653719617087676253, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88f8c2d37e815d84f80da001aad49e07, type: 3}

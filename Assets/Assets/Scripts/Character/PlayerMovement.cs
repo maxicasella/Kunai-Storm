@@ -24,7 +24,25 @@ public class PlayerMovement : MonoBehaviour
         playerMovement.SetFloat("HorizontalMov", inputMovement.x);
         playerMovement.SetFloat("VerticalMov", inputMovement.y);
 
-      
+        
+       if (inputMovement.x != 0)
+        {
+            playerMovement.SetBool("Horizontal", true);
+        }
+       else
+        {
+            playerMovement.SetBool("Horizontal", false);
+        }
+
+       if (inputMovement.y != 0)
+        {
+            playerMovement.SetBool("Vertical", true);
+        }
+        else
+        {
+            playerMovement.SetBool("Vertical", false);
+        }
+
 
         if (inputMovement.x != 0 || inputMovement.y != 0)
         {
@@ -35,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
         {
             playerMovement.SetBool("Movement", false);
         }
+
 
         if (inputMovement.x < 0)
         {
