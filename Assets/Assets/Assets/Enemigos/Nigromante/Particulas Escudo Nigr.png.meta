@@ -1,12 +1,60 @@
 fileFormatVersion: 2
 guid: 13f32b8e6ac974448a84888a0589daee
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3281069638398404181
+    second: Particulas Escudo Nigr_0
+  - first:
+      213: 424635179751244384
+    second: Particulas Escudo Nigr_1
+  - first:
+      213: -1518749081074497993
+    second: Particulas Escudo Nigr_2
+  - first:
+      213: 3504402111159250505
+    second: Particulas Escudo Nigr_3
+  - first:
+      213: -7811676497924673129
+    second: Particulas Escudo Nigr_4
+  - first:
+      213: 7605443886324445185
+    second: Particulas Escudo Nigr_5
+  - first:
+      213: -933204180782294501
+    second: Particulas Escudo Nigr_6
+  - first:
+      213: 7383533435887962599
+    second: Particulas Escudo Nigr_7
+  - first:
+      213: -6054632611351310452
+    second: Particulas Escudo Nigr_8
+  - first:
+      213: -231228469752865741
+    second: Particulas Escudo Nigr_9
+  - first:
+      213: -3247392267783495615
+    second: Particulas Escudo Nigr_10
+  - first:
+      213: -2191459062481366098
+    second: Particulas Escudo Nigr_11
+  - first:
+      213: 3723150950318324642
+    second: Particulas Escudo Nigr_12
+  - first:
+      213: 3441809779883049401
+    second: Particulas Escudo Nigr_13
+  - first:
+      213: -7164037709972655133
+    second: Particulas Escudo Nigr_14
+  - first:
+      213: -4502066445081946815
+    second: Particulas Escudo Nigr_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +82,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +97,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +118,361 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 440
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2647e1b5c4fa0f04aae18129d0f7dde5
+      internalID: 3281069638398404181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 435
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260c6691ce9ec0540b2eb0a7a0162e0e
+      internalID: 424635179751244384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 430
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe46d50cabe778d4b861ff9222b62868
+      internalID: -1518749081074497993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 425
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aef707201644a44d94646b5739305f3
+      internalID: 3504402111159250505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 293
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8454ae00b95846e45a61bd96aaada961
+      internalID: -7811676497924673129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 289
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb868c59719e6c489cd062f3fa2a34a
+      internalID: 7605443886324445185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 285
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ec626ea157e9d4fa4f21b4304b650f
+      internalID: -933204180782294501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 282
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc2ebd7d783fda4fb8025040aa30e98
+      internalID: 7383533435887962599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 151
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bfd83b8e579354c80e5b090cfaf234
+      internalID: -6054632611351310452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 148
+        width: 95
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac51ab672565142af9ebc77ae3e5a5
+      internalID: -231228469752865741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 145
+        width: 102
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08dba63acdc863459514d534ae010a5
+      internalID: -3247392267783495615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 142
+        width: 108
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dd7b8a45a6ce74ab700c155ab4e96b
+      internalID: -2191459062481366098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 11
+        width: 113
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a77d8cd58253840842af24c658496e
+      internalID: 3723150950318324642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 8
+        width: 119
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde8b03334f87e42b2c1c041429c710
+      internalID: 3441809779883049401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 5
+        width: 124
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c46bf02707f1344a96a9ba5c9288476
+      internalID: -7164037709972655133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Escudo Nigr_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3
+        width: 128
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2353791c96d184cbca52624c99e800
+      internalID: -4502066445081946815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 30179a2bd8a6b1d4c9df2cc4df814e86
     internalID: 0
     vertices: []
     indices: 

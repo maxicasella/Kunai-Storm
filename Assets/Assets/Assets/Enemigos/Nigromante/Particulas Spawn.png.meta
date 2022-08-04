@@ -1,12 +1,111 @@
 fileFormatVersion: 2
 guid: 07c630567c452c345879deba003031c6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 9070457714020215726
+    second: Particulas Spawn_0
+  - first:
+      213: -5195963957216871010
+    second: Particulas Spawn_1
+  - first:
+      213: -3206482846908580858
+    second: Particulas Spawn_2
+  - first:
+      213: 5988577422393809909
+    second: Particulas Spawn_3
+  - first:
+      213: 523287091969920679
+    second: Particulas Spawn_4
+  - first:
+      213: 5878555980990265993
+    second: Particulas Spawn_5
+  - first:
+      213: -1776185077272518869
+    second: Particulas Spawn_6
+  - first:
+      213: 4214554166870884652
+    second: Particulas Spawn_7
+  - first:
+      213: 2154700275160884031
+    second: Particulas Spawn_8
+  - first:
+      213: 4403457979284541817
+    second: Particulas Spawn_9
+  - first:
+      213: 2996456192175347350
+    second: Particulas Spawn_10
+  - first:
+      213: 1147780912706579007
+    second: Particulas Spawn_11
+  - first:
+      213: 8996190858647508823
+    second: Particulas Spawn_12
+  - first:
+      213: 3643884445703026655
+    second: Particulas Spawn_13
+  - first:
+      213: 2260795159344171782
+    second: Particulas Spawn_14
+  - first:
+      213: -6888053056781970241
+    second: Particulas Spawn_15
+  - first:
+      213: 6677552061894400806
+    second: Particulas Spawn_16
+  - first:
+      213: 677219047220483394
+    second: Particulas Spawn_17
+  - first:
+      213: -4821749885854421639
+    second: Particulas Spawn_18
+  - first:
+      213: 1937356641938301805
+    second: Particulas Spawn_19
+  - first:
+      213: 7772645742732329525
+    second: Particulas Spawn_20
+  - first:
+      213: -2473503285467058080
+    second: Particulas Spawn_21
+  - first:
+      213: 1171093390242946328
+    second: Particulas Spawn_22
+  - first:
+      213: -1640160433701068168
+    second: Particulas Spawn_23
+  - first:
+      213: -1502438319074206482
+    second: Particulas Spawn_24
+  - first:
+      213: 6274842701109610899
+    second: Particulas Spawn_25
+  - first:
+      213: 6228610942526756433
+    second: Particulas Spawn_26
+  - first:
+      213: -6304054216845588840
+    second: Particulas Spawn_27
+  - first:
+      213: 4987113122781034790
+    second: Particulas Spawn_28
+  - first:
+      213: -1170358711342457429
+    second: Particulas Spawn_29
+  - first:
+      213: 3930300741604459216
+    second: Particulas Spawn_30
+  - first:
+      213: 5572066795779832131
+    second: Particulas Spawn_31
+  - first:
+      213: -4230162684553022688
+    second: Particulas Spawn_32
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +133,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +148,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +169,718 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Particulas Spawn_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 384
+        width: 70
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6066a6848c1118446bd9f25f800a7aec
+      internalID: 9070457714020215726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 385
+        width: 65
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada360e4f0460ea4b988c446d9b50591
+      internalID: -5195963957216871010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 385
+        width: 68
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6da69ca92b09a49b5b5cdce2125440
+      internalID: -3206482846908580858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 384
+        width: 71
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bb343a547f5a447995668e04af8593
+      internalID: 5988577422393809909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 386
+        width: 70
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e51becea9fd290488105d6d031c43df
+      internalID: 523287091969920679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_5
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 386
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc23ee0bb3c21ac4ab58c7c258f459a3
+      internalID: 5878555980990265993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_6
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 384
+        width: 63
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff585b5328d28418c18649ba98a454
+      internalID: -1776185077272518869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_7
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 384
+        width: 65
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c958573a24312874da7792209bce238c
+      internalID: 4214554166870884652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 256
+        width: 68
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec890ee87894dac47aebfc0175705cf7
+      internalID: 2154700275160884031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_9
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 256
+        width: 70
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463664f7d137b9148b9cdedeb05bf5c5
+      internalID: 4403457979284541817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 256
+        width: 65
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5486af7c3474b3488d73724062ea157
+      internalID: 2996456192175347350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 257
+        width: 62
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f19d0fba67a2b458ac971fc7caeea4
+      internalID: 1147780912706579007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 363
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24074e6413db4849bffc0a6d23a2865
+      internalID: 8996190858647508823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_13
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 257
+        width: 60
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94447a1721555ea40bf452f3b42502fa
+      internalID: 3643884445703026655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_14
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 257
+        width: 63
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0b14fb2347f434794a495c4f195d49
+      internalID: 2260795159344171782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_15
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 257
+        width: 62
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e06185f5c98dd947ba4ba2d783bec77
+      internalID: -6888053056781970241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_16
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 249
+        width: 64
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f53fef86b8e4364f8d2445a646f08e9
+      internalID: 6677552061894400806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 128
+        width: 64
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdba6e433876de4ca70dba28f49306f
+      internalID: 677219047220483394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 129
+        width: 63
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eaf5b9878c2ba4084c21ea1f02a2a2
+      internalID: -4821749885854421639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 129
+        width: 65
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35ed99dcffe67f4eac5b4b4c421b8ee
+      internalID: 1937356641938301805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 128
+        width: 62
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9442b85af4b8647bc98393f4ba947b
+      internalID: 7772645742732329525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_21
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 129
+        width: 62
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c835bf3f5af3a84eb5f1df1c9224cfd
+      internalID: -2473503285467058080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_22
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 124
+        width: 64
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f2e9bc8885b341a0993f0012ec612
+      internalID: 1171093390242946328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_23
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 128
+        width: 67
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c77ae5a68bdc5744a3d66d7f1dbf4df
+      internalID: -1640160433701068168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_24
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 128
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258ee69987959bf4f9bc28f20771dc78
+      internalID: -1502438319074206482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aebd9b97e52e04caeb6df5f3715038
+      internalID: 6274842701109610899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 70
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4a351113515124883b42bfcb4c5f7c
+      internalID: 6228610942526756433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 62
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddb0c09849f03743bb4a561d2504784
+      internalID: -6304054216845588840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_28
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 64
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4c3f304b703ce4581f0f8c1441cd58
+      internalID: 4987113122781034790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_29
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 0
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a588beab89e92324ca2420eefde64fff
+      internalID: -1170358711342457429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_30
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1
+        width: 70
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1951c5db53114804eac96e3d40e999b2
+      internalID: 3930300741604459216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_31
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2
+        width: 67
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f44e99927e5ec488604b9058cd9fcc
+      internalID: 5572066795779832131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particulas Spawn_32
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1
+        width: 67
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd78f2158b88ff4584ac44a5d0ad433
+      internalID: -4230162684553022688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e327275527c3a644e9367a029f74fadf
     internalID: 0
     vertices: []
     indices: 

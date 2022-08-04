@@ -38,12 +38,20 @@ public class KunaiMov : MonoBehaviour
         NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
         StatsLvl3 lvl3 = collision.GetComponent<StatsLvl3>();
         BossStats boss = collision.GetComponent<BossStats>();
+        AuraShield aura = collision.GetComponent<AuraShield>();
 
         if (enemieHP != null)
         {
             enemieHP.DamageAttack(_damage);
             Destroy(this.gameObject);
         }
+
+        else if (aura != null)
+        {
+            aura.DamageAttack(_damage);
+            Destroy(this.gameObject);
+        }
+
         else if (necroHP != null)
         {
             necroHP.DamageAttack(_damage);

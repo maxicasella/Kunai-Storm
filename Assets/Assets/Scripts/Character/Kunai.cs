@@ -13,6 +13,7 @@ public class Kunai : MonoBehaviour
         NecromancerStats necroHP = collision.GetComponent<NecromancerStats>();
         StatsLvl3 lvl3 = collision.GetComponent<StatsLvl3>();
         BossStats boss = collision.GetComponent<BossStats>();
+         AuraShield aura = collision.GetComponent<AuraShield>();
 
         if (enemieHP != null && player.kunaiEquip)
         {
@@ -20,7 +21,18 @@ public class Kunai : MonoBehaviour
          
         }
 
-       
+        if (aura != null && player.kunaiEquip)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                aura.DamageAttack(player.kunaiNormDamage);
+            }
+            else
+            {
+                aura.DamageAttack(player.kunaiNormDamage);
+            }
+        }
+
         if (necroHP != null && player.kunaiEquip)
         {
             necroHP.DamageAttack(player.kunaiNormDamage);
