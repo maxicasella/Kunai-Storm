@@ -18,6 +18,8 @@ public class PlayerStats : MonoBehaviour
     public PlayerAttack weapon;
     public GameObject blood;
     public string scene;
+    public AudioSource damageSound;
+    public AudioSource deathAudio;
    
    
    private void Awake()
@@ -39,6 +41,7 @@ public class PlayerStats : MonoBehaviour
         if (damage>0 && playerHp >0)
         {
             playerHp -= damage;
+            damageSound.Play();
             Instantiate(blood, transform.position, Quaternion.identity);
             canvasHP.UpdateHP(playerHp);
             
@@ -87,5 +90,10 @@ public class PlayerStats : MonoBehaviour
     public void Death()
     {
         SceneManager.LoadScene(9);
+    }
+
+    public void DeathSound()
+    {
+        deathAudio.Play();
     }
 }

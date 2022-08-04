@@ -10,8 +10,9 @@ public class NecromancerStats : MonoBehaviour
     public float timeToDestroy;
     Animator enemieAnim;
     public GameObject key;
-     public UINecro ui;
+    public UINecro ui;
     public GameObject particleSystem;
+    public AudioSource audio;
 
     [SerializeField] GameObject _ui;
     private void Awake()
@@ -47,9 +48,14 @@ public class NecromancerStats : MonoBehaviour
             enemieAnim.SetTrigger("Death");
             Destroy(_ui.gameObject);
             Instantiate(key, transform.position, transform.rotation);
-            Destroy(this.gameObject, 0.2f);
+            Destroy(this.gameObject, 0.5f);
 
         }
+    }
+
+    public void AudioDeath()
+    {
+        audio.Play();
     }
    
 }

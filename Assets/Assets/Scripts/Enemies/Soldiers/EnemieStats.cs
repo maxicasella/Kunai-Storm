@@ -46,7 +46,6 @@ public class EnemieStats : MonoBehaviour
         if (damage > 0 && enemieHP >= 0) /*Recibir daño*/
         {
             enemieHP -= damage;
-            _audio.Play();
             Instantiate(_impactParticle, transform.position, Quaternion.identity);
             
         }
@@ -59,15 +58,26 @@ public class EnemieStats : MonoBehaviour
                 case 1:
                     Instantiate(mana, transform.position, transform.rotation);
                     break;
+                case 4:
+                    Instantiate(mana, transform.position, transform.rotation);
+                    break;
                 case 6: Instantiate(hp, transform.position, transform.rotation);
+                    break;
+                case 9:
+                    Instantiate(hp, transform.position, transform.rotation);
                     break;
             }
             enemieAnim.SetTrigger("Death");
                        
         
-            Destroy(this.gameObject,0.2f);
+            Destroy(this.gameObject,0.7f);
                 
         }
+    }
+
+    public void EnemieAudio()
+    {
+        _audio.Play();
     }
 
 }

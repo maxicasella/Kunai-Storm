@@ -12,6 +12,7 @@ public class BossStats : MonoBehaviour
     public BossUI ui;
     [SerializeField] GameObject _uiBoss;
     [SerializeField] GameObject _particleSystem;
+    [SerializeField] AudioSource _audio;
 
     private void Awake()
     {
@@ -56,6 +57,10 @@ public class BossStats : MonoBehaviour
         SceneManager.LoadScene(10);
     }
 
+    public void AudioDeath()
+    {
+        _audio.Play();
+    }
 }
 
 
