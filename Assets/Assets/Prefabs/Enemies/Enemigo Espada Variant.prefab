@@ -22,6 +22,7 @@ MonoBehaviour:
   _spawn: {fileID: 0}
   _impactParticle: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
     type: 3}
+  _audio: {fileID: 1047471376987265937}
 --- !u!114 &8046443338509292309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +120,12 @@ PrefabInstance:
 --- !u!1 &7371775208809541228 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1813977253113492619, guid: a28b20d120715344893e232a64c27590,
+    type: 3}
+  m_PrefabInstance: {fileID: 9178693166430706407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1047471376987265937 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -1015533784744902282, guid: a28b20d120715344893e232a64c27590,
     type: 3}
   m_PrefabInstance: {fileID: 9178693166430706407}
   m_PrefabAsset: {fileID: 0}

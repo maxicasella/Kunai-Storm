@@ -15,6 +15,7 @@ public class StatsLvl3 : MonoBehaviour
     [SerializeField] SpawnerLvl3 _spawn;
     [SerializeField] KillCounter _kills;
     [SerializeField] GameObject _impactParticle;
+    [SerializeField] AudioSource _audio;
 
     private void Awake()
     {
@@ -60,7 +61,13 @@ public class StatsLvl3 : MonoBehaviour
                 case 1:
                     Instantiate(mana, transform.position, transform.rotation);
                     break;
+                case 4:
+                    Instantiate(mana, transform.position, transform.rotation);
+                    break;
                 case 6:
+                    Instantiate(hp, transform.position, transform.rotation);
+                    break;
+                case 9:
                     Instantiate(hp, transform.position, transform.rotation);
                     break;
             }
@@ -81,6 +88,12 @@ public class StatsLvl3 : MonoBehaviour
             Destroy(this.gameObject, 0.2f);
 
         }
+
+    }
+
+    public void EnemieAudio()
+    {
+        _audio.Play();
     }
 }
 
