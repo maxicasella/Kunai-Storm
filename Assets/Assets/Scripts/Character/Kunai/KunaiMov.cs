@@ -32,6 +32,11 @@ public class KunaiMov : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        Destroy(this.gameObject, 2f);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         EnemieStats enemieHP = collision.GetComponent<EnemieStats>();
