@@ -13,7 +13,7 @@ public class Katana : MonoBehaviour
 
         if (_katanaRecolectable !=null)
         {
-            //katanaPlay.Play();
+            katanaPlay.Play();
             _katanaRecolectable.Katana(katanaRecollectable);
             Destroy(this.gameObject, 0.5f);
         }

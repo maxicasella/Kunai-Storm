@@ -2863,6 +2863,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 46426080219288489, guid: 65a9387fde1752c49a7843d37d3cc66a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 46426081216589980, guid: 65a9387fde1752c49a7843d37d3cc66a,
         type: 3}
       propertyPath: m_Camera
@@ -3510,11 +3515,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nigromante UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 7779147745765884805, guid: fd323cb6c633d6c49a5bda53ad59a7e4,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7779147745978277188, guid: fd323cb6c633d6c49a5bda53ad59a7e4,
         type: 3}

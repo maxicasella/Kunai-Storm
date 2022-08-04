@@ -12,10 +12,10 @@ public class EnemiesDeath : MonoBehaviour
 
     private void Update()
     {
-        if (killsCounter.killsCounter == goFinal)
+        if (killsCounter.killsCounter >= goFinal)
         {
             myAnim.SetTrigger("Break");
-            Destroy(this.gameObject, 1.2f);
+            Destroy(this.gameObject, 1f);
         }   
     }
 

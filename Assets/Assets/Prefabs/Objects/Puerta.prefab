@@ -115,11 +115,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 46426081724690844}
     m_Modifications:
-    - target: {fileID: 5975772882428294561, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
-        type: 3}
-      propertyPath: keyReference
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5975772882428294572, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
         type: 3}
       propertyPath: m_Name
@@ -132,13 +127,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5975772882428294574, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
         type: 3}
-      propertyPath: m_Size.x
-      value: 3.1412497
+      propertyPath: m_Offset.y
+      value: 0.43691492
       objectReference: {fileID: 0}
     - target: {fileID: 5975772882428294574, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
         type: 3}
-      propertyPath: m_Offset.y
-      value: 0.43691492
+      propertyPath: m_Size.x
+      value: 3.1412497
       objectReference: {fileID: 0}
     - target: {fileID: 5975772882428294574, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
         type: 3}
@@ -200,10 +195,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5975772882931733950, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
+    - target: {fileID: 5975772883668727434, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
         type: 3}
-      propertyPath: m_Camera
-      value: 
+      propertyPath: m_AnchoredPosition.x
+      value: 315.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975772883668727434, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 113.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975772883668727435, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975772883668727437, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5975772883668727437, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc0e7fd63dd20940a7cf4ea624e9cc9, type: 3}

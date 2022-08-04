@@ -17,7 +17,7 @@ public class PlayerAttack : MonoBehaviour
     public float katanaNormDamage;
     public float katanaPowerDamage;
     public float timeshoot;
-    float timeToShoot;
+    public float timeToShoot;
 
     Animator playerMovement;
     public Transform ShootControler;
@@ -48,6 +48,14 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
+        if (timeToShoot >=  0)
+        {
+            timeToShoot = timeToShoot - Time.time;
+        }
+        else if (timeToShoot <= 0)
+        {
+            timeToShoot = timeshoot;
+        }
 
         //Cambio de arma
         if (Input.GetButton("Jump"))
@@ -110,10 +118,10 @@ public class PlayerAttack : MonoBehaviour
         //Ataques click izquierdo
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            if (kunaiEquip && Time.time > timeToShoot && playerMana > 0)
+            if (kunaiEquip && timeToShoot >=1 && playerMana > 0)
             {
                 playerMovement.SetBool("AttackPowerKunai", true);
-                timeToShoot = Time.deltaTime + timeshoot;
+                //timeToShoot = Time.deltaTime + timeshoot;
                 playerMana -= _powerKunai;
                 Kunai();
                 canvasMana.UpdateMana(playerMana);

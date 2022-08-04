@@ -157,7 +157,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.12, y: 0.3}
   serializedVersion: 2
-  m_Radius: 10.86
+  m_Radius: 14.41
 --- !u!114 &2089951577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   necroHP: 0
-  baseHP: 100
+  baseHP: 150
   necroDamage: 0
   timeToDestroy: 1
   key: {fileID: 4968957785462802293, guid: 10bda8a77a6853b47883f9ca71143593, type: 3}
