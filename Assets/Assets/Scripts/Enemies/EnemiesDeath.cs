@@ -8,16 +8,25 @@ public class EnemiesDeath : MonoBehaviour
     [SerializeField] float goFinal;
     [SerializeField] Animator myAnim;
     [SerializeField] GameObject _final;
+    [SerializeField] AudioSource _audio;
 
     private void Update()
     {
         if (killsCounter.killsCounter == goFinal)
         {
             myAnim.SetTrigger("Break");
-            _final.SetActive(true);
-            Destroy(this.gameObject, 1);
+            Destroy(this.gameObject, 1.2f);
         }   
     }
 
+    public void Audio()
+    {
+        _audio.Play();
+    }
+
+    public void FinalLevel()
+    {
+        _final.SetActive(true);
+    }
 
 }

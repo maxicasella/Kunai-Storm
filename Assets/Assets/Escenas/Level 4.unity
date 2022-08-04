@@ -9222,7 +9222,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 764151261, guid: 88f8c2d37e815d84f80da001aad49e07, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3190788893239081991, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
@@ -9234,6 +9234,11 @@ PrefabInstance:
       propertyPath: cursor
       value: 
       objectReference: {fileID: 1898643548}
+    - target: {fileID: 4653719617087676242, guid: 88f8c2d37e815d84f80da001aad49e07,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 790467a9125768046b9e7bfad1a884e8, type: 2}
     - target: {fileID: 4653719617087676243, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
       propertyPath: m_Name
@@ -9308,6 +9313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4653719617087676253, guid: 88f8c2d37e815d84f80da001aad49e07,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88f8c2d37e815d84f80da001aad49e07, type: 3}
