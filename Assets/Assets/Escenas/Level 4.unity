@@ -9188,6 +9188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stats: {fileID: 560375305}
+  _mana: {fileID: 905440327}
   _spawnMana: {fileID: 199259881}
   _spawnHp: {fileID: 821113808}
   _hpPotion: {fileID: 452675511276131865, guid: 2214ca757689cc64d82d43a2374ec7fe,
@@ -9541,6 +9542,11 @@ PrefabInstance:
       propertyPath: canvasMana
       value: 
       objectReference: {fileID: 1149706021}
+    - target: {fileID: 4653719617087676251, guid: 88f8c2d37e815d84f80da001aad49e07,
+        type: 3}
+      propertyPath: baseMana
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 4653719617087676252, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
       propertyPath: m_LocalPosition.x

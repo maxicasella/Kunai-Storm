@@ -68,7 +68,7 @@ public class PlayerStats : MonoBehaviour
 
     public void PotionHp(float hp) /*Pocion Vida*/
     {
-        if(playerHp<100)
+        if(playerHp<baseHp)
         {
           playerHp += hp;
           canvasHP.UpdateHP(playerHp);

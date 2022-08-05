@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnPotions : MonoBehaviour
 {
     [SerializeField] PlayerStats _stats;
+    [SerializeField] PlayerAttack _mana;
     [SerializeField] Transform _spawnMana;
     [SerializeField] Transform _spawnHp;
     [SerializeField] GameObject _hpPotion;
@@ -20,7 +21,7 @@ public class SpawnPotions : MonoBehaviour
             _spawns--;
         }
 
-        if (_stats.playerMana < 50 && _spawns == 1)
+        if (_mana.playerMana < 50 && _spawns == 1)
         {
             Instantiate(_manaPotion, _spawnMana.position, Quaternion.identity);
             _spawns--;

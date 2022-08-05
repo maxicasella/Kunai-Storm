@@ -181,7 +181,7 @@ public class PlayerAttack : MonoBehaviour
 
     public void PotionMana(float mana)
     {
-        if (playerMana < 100)
+        if (playerMana < baseMana)
         {
             playerMana += mana;
             canvasMana.UpdateMana(playerMana);
