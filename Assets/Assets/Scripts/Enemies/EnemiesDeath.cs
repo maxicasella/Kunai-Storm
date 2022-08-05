@@ -17,7 +17,7 @@ public class EnemiesDeath : MonoBehaviour
         {
             myAnim.SetTrigger("Break");
             Instantiate(_particulas, transform.position, Quaternion.identity);
-            Destroy(this.gameObject, 0.9f);
+            Destroy(this.gameObject, 1.5f);
         }   
     }
 
