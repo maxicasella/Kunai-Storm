@@ -28,7 +28,7 @@ public class SpawnerLvl3 : MonoBehaviour
                     spawn = 0;
                     break;
                 case 2:
-                    Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
+                     Instantiate(_enemieSpear, _spawnA.position, Quaternion.identity);
                     spawn = 0;
                     break;
                 case 3:

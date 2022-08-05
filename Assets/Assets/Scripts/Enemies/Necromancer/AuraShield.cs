@@ -24,10 +24,10 @@ public class AuraShield : MonoBehaviour
 
         if (_shiedlHP <= 0)
         {
-            //_audioLoop.Stop();
-            //_audioBreak.Play();
+            _audioLoop.Stop();
+            _audioBreak.Play();
             Instantiate(_particulas, transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
+            Destroy(this.gameObject,0.4f);
         }
     }
 }
