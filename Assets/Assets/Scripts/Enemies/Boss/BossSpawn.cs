@@ -12,6 +12,7 @@ public class BossSpawn : MonoBehaviour
     [SerializeField] Animator _myAnim;
     [SerializeField] float _spawn;
     [SerializeField] GameObject _darkAura;
+    [SerializeField] Transform _particlesPoint;
     
 
 
@@ -25,7 +26,7 @@ public class BossSpawn : MonoBehaviour
             {
                 case 1:
                     _myAnim.SetTrigger("Invocacion");
-                    Instantiate(_darkAura, transform.position,Quaternion.identity);
+                    Instantiate(_darkAura, _particlesPoint.position, Quaternion.identity);
                     Instantiate(_soldiersA, _spawnerA.position, Quaternion.identity);
                     Instantiate(_soldierB, _spawnerB.position, Quaternion.identity);
                     _spawn = 0;
@@ -38,6 +39,8 @@ public class BossSpawn : MonoBehaviour
             
         }
     }
+
+    
 
    
 }

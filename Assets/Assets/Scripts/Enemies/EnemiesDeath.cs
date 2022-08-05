@@ -9,13 +9,15 @@ public class EnemiesDeath : MonoBehaviour
     [SerializeField] Animator myAnim;
     [SerializeField] GameObject _final;
     [SerializeField] AudioSource _audio;
+    [SerializeField] GameObject _particulas;
 
     private void Update()
     {
         if (killsCounter.killsCounter >= goFinal)
         {
             myAnim.SetTrigger("Break");
-            Destroy(this.gameObject, 1f);
+            Instantiate(_particulas, transform.position, Quaternion.identity);
+            Destroy(this.gameObject, 0.9f);
         }   
     }
 

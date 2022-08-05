@@ -2761,6 +2761,12 @@ PrefabInstance:
       propertyPath: _audio
       value: 
       objectReference: {fileID: 1213204148}
+    - target: {fileID: 1511672675699369302, guid: 6a0952880d8c6794f8a656bd8e0e0855,
+        type: 3}
+      propertyPath: _particulas
+      value: 
+      objectReference: {fileID: 1040608886635896, guid: a97415c6b57076f41a6621a7b51d63a3,
+        type: 3}
     - target: {fileID: 1511672675699369303, guid: 6a0952880d8c6794f8a656bd8e0e0855,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3053,6 +3059,12 @@ PrefabInstance:
       propertyPath: _audio
       value: 
       objectReference: {fileID: 504354204}
+    - target: {fileID: 8141355447981256327, guid: 9526b0bc1659e9d48b033fd6cd8d82c3,
+        type: 3}
+      propertyPath: _particulas
+      value: 
+      objectReference: {fileID: 1040608886635896, guid: a97415c6b57076f41a6621a7b51d63a3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9526b0bc1659e9d48b033fd6cd8d82c3, type: 3}
 --- !u!1001 &8447447975734734127
@@ -3082,6 +3094,12 @@ PrefabInstance:
       propertyPath: _audio
       value: 
       objectReference: {fileID: 1847595167}
+    - target: {fileID: 8447447974571193125, guid: 27c5ccac338481b46a49b36cd78101ae,
+        type: 3}
+      propertyPath: _particulas
+      value: 
+      objectReference: {fileID: 1040608886635896, guid: a97415c6b57076f41a6621a7b51d63a3,
+        type: 3}
     - target: {fileID: 8447447974571193129, guid: 27c5ccac338481b46a49b36cd78101ae,
         type: 3}
       propertyPath: m_LocalPosition.x
