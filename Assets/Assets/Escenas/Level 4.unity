@@ -9252,6 +9252,11 @@ PrefabInstance:
       propertyPath: canvasHP
       value: 
       objectReference: {fileID: 106491071}
+    - target: {fileID: 4653719617087676249, guid: 88f8c2d37e815d84f80da001aad49e07,
+        type: 3}
+      propertyPath: blood
+      value: 
+      objectReference: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}
     - target: {fileID: 4653719617087676251, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
       propertyPath: equipment

@@ -1217,8 +1217,7 @@ PrefabInstance:
         type: 3}
       propertyPath: blood
       value: 
-      objectReference: {fileID: 6093413257480322733, guid: 3e24f79c974904d45bc1be1626ecfaf1,
-        type: 3}
+      objectReference: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment

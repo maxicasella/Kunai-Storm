@@ -15,6 +15,7 @@ public class EnemieStats : MonoBehaviour
     [SerializeField] SpawnerLvl3 _spawn;
     [SerializeField] GameObject _impactParticle;
     [SerializeField] AudioSource _audio;
+    [SerializeField] GameObject _particula;
 
     private void Awake()
     {
@@ -78,6 +79,11 @@ public class EnemieStats : MonoBehaviour
     public void EnemieAudio()
     {
         _audio.Play();
+    }
+
+    public void ParticulaMuerte()
+    {
+        Instantiate(_particula, transform.position, Quaternion.identity);
     }
 
 }

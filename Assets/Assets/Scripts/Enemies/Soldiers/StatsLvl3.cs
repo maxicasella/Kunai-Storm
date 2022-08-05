@@ -16,6 +16,7 @@ public class StatsLvl3 : MonoBehaviour
     [SerializeField] KillCounter _kills;
     [SerializeField] GameObject _impactParticle;
     [SerializeField] AudioSource _audio;
+    [SerializeField] GameObject _particula;
 
     private void Awake()
     {
@@ -94,6 +95,11 @@ public class StatsLvl3 : MonoBehaviour
     public void EnemieAudio()
     {
         _audio.Play();
+    }
+
+    public void ParticulaMuerte()
+    {
+        Instantiate(_particula, transform.position, Quaternion.identity);
     }
 }
 

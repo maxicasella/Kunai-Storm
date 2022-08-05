@@ -2620,6 +2620,11 @@ PrefabInstance:
       propertyPath: _audio
       value: 
       objectReference: {fileID: 2004138851}
+    - target: {fileID: 8130545678000709877, guid: babac5ea2643a684cab653571a26322b,
+        type: 3}
+      propertyPath: _particula
+      value: 
+      objectReference: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 3}
     - target: {fileID: 8130545678000709886, guid: babac5ea2643a684cab653571a26322b,
         type: 3}
       propertyPath: m_SortingOrder
@@ -3097,6 +3102,11 @@ PrefabInstance:
       propertyPath: _audio
       value: 
       objectReference: {fileID: 855146431}
+    - target: {fileID: 7032917056898397772, guid: 41856da477b1edd44a9c8287b0cf65dc,
+        type: 3}
+      propertyPath: _particula
+      value: 
+      objectReference: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 3}
     - target: {fileID: 7032917058384869643, guid: 41856da477b1edd44a9c8287b0cf65dc,
         type: 3}
       propertyPath: player

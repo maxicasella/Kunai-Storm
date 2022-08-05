@@ -36,6 +36,7 @@ MonoBehaviour:
   _impactParticle: {fileID: 1563233721454903788, guid: 6cdc702e85bf9c847b1d1719e8a57a18,
     type: 3}
   _audio: {fileID: 1474328680074758703}
+  _particula: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 3}
 --- !u!1001 &6454953540668500899
 PrefabInstance:
   m_ObjectHideFlags: 0
