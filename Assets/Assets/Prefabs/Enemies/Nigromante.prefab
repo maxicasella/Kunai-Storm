@@ -798,6 +798,7 @@ MonoBehaviour:
   particleSystem: {fileID: 6232972647609421632, guid: 5f7ce3eb6fee1fc4e9207fba5356f446,
     type: 3}
   audio: {fileID: 938093931}
+  muerteParticulas: {fileID: 100006, guid: 2a474af3f4c27be4e9bdce39cfe4315d, type: 3}
   _ui: {fileID: 0}
 --- !u!114 &6376073496459655982
 MonoBehaviour:

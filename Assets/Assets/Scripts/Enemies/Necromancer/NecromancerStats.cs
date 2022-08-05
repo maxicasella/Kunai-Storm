@@ -13,6 +13,7 @@ public class NecromancerStats : MonoBehaviour
     public UINecro ui;
     public GameObject particleSystem;
     public AudioSource audio;
+    public GameObject muerteParticulas;
 
     [SerializeField] GameObject _ui;
     private void Awake()
@@ -46,6 +47,7 @@ public class NecromancerStats : MonoBehaviour
         if (necroHP <= 0)
         {
             enemieAnim.SetTrigger("Death");
+            Instantiate(muerteParticulas, transform.position, Quaternion.identity);
             Destroy(_ui.gameObject);
             Instantiate(key, transform.position, transform.rotation);
             Destroy(this.gameObject, 0.5f);
