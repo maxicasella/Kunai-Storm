@@ -4299,6 +4299,21 @@ PrefabInstance:
       propertyPath: cursor
       value: 
       objectReference: {fileID: 739160370}
+    - target: {fileID: 7841506656725090414, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841506656725090414, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841506656725090414, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.5864
+      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258659, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: m_Name
@@ -4319,6 +4334,16 @@ PrefabInstance:
       propertyPath: blood
       value: 
       objectReference: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}
+    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: baseHp
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7841506657235258665, guid: 2fadfdea6d482b548b7108487d7b1eb2,
+        type: 3}
+      propertyPath: baseMana
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 7841506657235258667, guid: 2fadfdea6d482b548b7108487d7b1eb2,
         type: 3}
       propertyPath: equipment
@@ -4557,6 +4582,16 @@ PrefabInstance:
       propertyPath: stats
       value: 
       objectReference: {fileID: 206646652}
+    - target: {fileID: 8261429365949445171, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261429365949445171, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
+        type: 3}
+      propertyPath: m_Value
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 8261429366242215789, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
         type: 3}
       propertyPath: m_Camera
@@ -4671,6 +4706,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261429366392650514, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261429366392650514, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
+        type: 3}
+      propertyPath: m_Value
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8261429366679124921, guid: 5cb9d49f72de7bf4db57ccc1f814a3c5,
         type: 3}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7861803831607425156}
   - component: {fileID: 7861803831607425275}
   - component: {fileID: 885900052428976265}
-  m_Layer: 13
+  m_Layer: 14
   m_Name: Katana Recollectable
   m_TagString: Objects
   m_Icon: {fileID: 0}
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   katanaRecollectable: 1
   katanaPlay: {fileID: 885900052428976265}
-  particula: {fileID: 100000, guid: 3d4907e6bd39f474b8fd8220920e65c4, type: 3}
+  particula: {fileID: 1844191813266838, guid: 968c924d2be019d4b9e67647551eec3e, type: 3}
 --- !u!82 &885900052428976265
 AudioSource:
   m_ObjectHideFlags: 0

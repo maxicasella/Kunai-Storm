@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c815b4d0587bc245869432bc4518509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recupMana: 20
+  recupMana: 40
   audioMana: {fileID: -6938299050475298312}
   particulas: {fileID: 100008, guid: e3d819d8722fa1f47a3f68574b56dfb3, type: 3}
 --- !u!82 &-6938299050475298312

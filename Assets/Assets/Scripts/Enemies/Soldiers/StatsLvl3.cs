@@ -56,19 +56,19 @@ public class StatsLvl3 : MonoBehaviour
 
         if (enemieHP <= 0)
         {
-            int potions = Random.Range(0, 9);
+            int potions = Random.Range(0, 6);
             switch (potions)
             {
                 case 1:
                     Instantiate(mana, transform.position, transform.rotation);
                     break;
-                case 4:
+                case 3:
                     Instantiate(mana, transform.position, transform.rotation);
                     break;
-                case 6:
+                case 5:
                     Instantiate(hp, transform.position, transform.rotation);
                     break;
-                case 9:
+                case 6:
                     Instantiate(hp, transform.position, transform.rotation);
                     break;
             }

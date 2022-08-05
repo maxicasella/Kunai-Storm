@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3a3d96b9ae95f4b9932526c2ebef71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recupHP: 20
+  recupHP: 40
   hpPotion: {fileID: 7760929806286195736}
   particulas: {fileID: 100000, guid: ada5d62ffe762ce4fbccc70dcdbc9022, type: 3}
 --- !u!82 &7760929806286195736
