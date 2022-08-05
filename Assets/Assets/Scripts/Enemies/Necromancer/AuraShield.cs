@@ -8,6 +8,8 @@ public class AuraShield : MonoBehaviour
     [SerializeField] AudioSource _audioLoop;
     [SerializeField] AudioSource _audioBreak;
     [SerializeField] GameObject _particulas;
+    [SerializeField] AudioSource _golpe;
+    [SerializeField] GameObject _golpeParticula;
 
     private void Update()
     {
@@ -19,7 +21,9 @@ public class AuraShield : MonoBehaviour
         if (damage > 0 && _shiedlHP >= 0) /*Recibir daño*/
         {
             _shiedlHP -= damage;
-           
+            _golpe.Play();
+            Instantiate(_golpeParticula, transform.position, Quaternion.identity);
+
         }
 
         if (_shiedlHP <= 0)
@@ -27,7 +31,9 @@ public class AuraShield : MonoBehaviour
             _audioLoop.Stop();
             _audioBreak.Play();
             Instantiate(_particulas, transform.position, Quaternion.identity);
-            Destroy(this.gameObject,0.4f);
+            Destroy(this.gameObject,1.4f);
         }
     }
+
+  
 }

@@ -8,6 +8,7 @@ public class Fireball : MonoBehaviour
     [SerializeField] float _force;
     [SerializeField] Transform _target;
     [SerializeField] AudioSource _audio;
+    [SerializeField] GameObject _particulas;
     
     public float dmg;
     
@@ -38,10 +39,12 @@ public class Fireball : MonoBehaviour
         if (pjStats != null)
         {
             pjStats.Damage(dmg);
+            Instantiate(_particulas, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
         else
         {
+            Instantiate(_particulas, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
         }
     }

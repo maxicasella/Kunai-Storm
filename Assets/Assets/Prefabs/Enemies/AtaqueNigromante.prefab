@@ -120,6 +120,8 @@ MonoBehaviour:
   _force: 1
   _target: {fileID: 7841506657235258668, guid: 2fadfdea6d482b548b7108487d7b1eb2, type: 3}
   _audio: {fileID: -3920730225643042395}
+  _particulas: {fileID: 1845240806346120, guid: b395d5d6eb4b4b846acc021ee036b744,
+    type: 3}
   dmg: 5
 --- !u!61 &143398584235376245
 BoxCollider2D:

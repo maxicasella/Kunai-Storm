@@ -784,6 +784,8 @@ MonoBehaviour:
   _uiBoss: {fileID: 1454722217}
   _visionAnim: {fileID: 764151264}
   _boss: {fileID: 1472257708}
+  _particulas: {fileID: 1965343156803978, guid: aa8d6482d70a23445b4b2a928ed1b845,
+    type: 3}
 --- !u!1 &443907617
 GameObject:
   m_ObjectHideFlags: 0
@@ -8059,6 +8061,7 @@ MonoBehaviour:
   _spawnerB: {fileID: 1552360768}
   _myAnim: {fileID: 1472257709}
   _spawn: 0
+  _darkAura: {fileID: 100000, guid: 7b56cd9b663f23f429e131a54ec87db0, type: 3}
 --- !u!114 &1472257715
 MonoBehaviour:
   m_ObjectHideFlags: 0

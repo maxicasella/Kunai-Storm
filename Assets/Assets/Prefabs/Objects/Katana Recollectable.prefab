@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   katanaRecollectable: 1
   katanaPlay: {fileID: 885900052428976265}
+  particula: {fileID: 100000, guid: 3d4907e6bd39f474b8fd8220920e65c4, type: 3}
 --- !u!82 &885900052428976265
 AudioSource:
   m_ObjectHideFlags: 0

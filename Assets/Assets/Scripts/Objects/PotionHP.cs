@@ -7,6 +7,7 @@ public class PotionHP : MonoBehaviour
 {
     public float recupHP;
     public AudioSource hpPotion;
+    public GameObject particulas;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,6 +17,7 @@ public class PotionHP : MonoBehaviour
         {
             hpPotion.Play();
             playerHp.PotionHp(recupHP);
+            Instantiate(particulas, transform.position, Quaternion.identity);
             Destroy(this.gameObject, 0.5f);
 
         }
