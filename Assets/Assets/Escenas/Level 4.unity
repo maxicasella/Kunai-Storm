@@ -9901,6 +9901,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 764151263, guid: 88f8c2d37e815d84f80da001aad49e07, type: 3}
+      propertyPath: m_SortingOrder
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 3190788893239081991, guid: 88f8c2d37e815d84f80da001aad49e07,
         type: 3}
       propertyPath: cursor
