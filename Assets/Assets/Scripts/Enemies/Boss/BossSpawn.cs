@@ -13,6 +13,8 @@ public class BossSpawn : MonoBehaviour
     [SerializeField] float _spawn;
     [SerializeField] GameObject _darkAura;
     [SerializeField] Transform _particlesPoint;
+    [SerializeField] GameObject _particulasSpawn;
+    [SerializeField] AudioSource _spawnerSound;
     
 
 
@@ -26,7 +28,10 @@ public class BossSpawn : MonoBehaviour
             {
                 case 1:
                     _myAnim.SetTrigger("Invocacion");
+                    _spawnerSound.Play();
                     Instantiate(_darkAura, _particlesPoint.position, Quaternion.identity);
+                    Instantiate(_particulasSpawn, _spawnerA.position, Quaternion.identity);
+                    Instantiate(_particulasSpawn, _spawnerB.position, Quaternion.identity);
                     Instantiate(_soldiersA, _spawnerA.position, Quaternion.identity);
                     Instantiate(_soldierB, _spawnerB.position, Quaternion.identity);
                     _spawn = 0;
